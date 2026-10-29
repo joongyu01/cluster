@@ -82,3 +82,9 @@
 - 렌더 검사는 개발 환경의 `xml-js`, `sharp`를 사용합니다. `NODE_PATH`를 기존 런타임의 node_modules 경로로 지정해 `node tools/render-check.cjs`로 실행합니다. 사용자용 index.html에는 외부 의존성이 없습니다. 폰트 폭 fixture는 Windows 맑은 고딕 100px의 글자별 폭입니다.
 - PNG 렌더링을 눈으로 확인했습니다. 브라우저 자체를 실행한 테스트는 아니며, 기존 로컬 URL 보안 제한을 우회하지 않았습니다. 전체화면·모바일 터치와 브라우저별 폰트는 실화면 재검증이 남습니다.
 - 제조사 원본 폰트/3D 차량 자산과 전체 원영상은 없습니다. 현재 차량과 카메라는 SVG 재현이며 사진과 완전히 동일한 원본 자산은 아닙니다.
+
+## 2026-10-29 GitHub Pages 배포
+
+- 공개 저장소: https://github.com/joongyu01/cluster (`main`).
+- 사이트: https://www.joongyu.co.kr/cluster/ (계정의 기존 사용자 도메인 상속). HTTPS 강제 적용.
+- 최초 커밋 `458f0cf`, Pages 빌드 성공과 HTTP 200 확인. 공개 HTML과 로컬 HTML은 줄바꿈 정규화 후 동일합니다.

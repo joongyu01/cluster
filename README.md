@@ -2,7 +2,7 @@
 
 촬영 영상에서 정리한 일반 경고, 주행 보조, HDP, 차로 설정을 재현한 HTML 프로젝트입니다. 총 245개 선택 항목이 들어 있습니다.
 
-[웹에서 실행](https://joongyu01.github.io/cluster/) · [GitHub 저장소](https://github.com/joongyu01/cluster)
+[웹에서 실행](https://www.joongyu.co.kr/cluster/) · [GitHub 저장소](https://github.com/joongyu01/cluster)
 
 실제 차량 제어와 연결되지 않은 시각화입니다. 사진을 참고해 만든 SVG이며 제조사 공식 화면이나 원본 차량 자산이 아닙니다.
 
