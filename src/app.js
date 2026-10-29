@@ -7,6 +7,7 @@
   const ctx=document.createElement('canvas').getContext('2d');
   let selected=(data.find(m=>m.kind==='message'&&m.bank==='v1')||data[0]).id;
   let bank='all',query='',category='all',includeEmpty=true,timer=null,toastTimer=null;
+  let canPreview=null;
   let currentNumber=null,zoom=matchMedia('(max-width:780px)').matches,zoomTouched=false,motion=false;
   const current=()=>data.find(m=>m.id===selected)||null;
   const time=t=>Number.isFinite(t)?String(Math.floor(t/60)).padStart(2,'0')+':'+String(Math.floor(t%60)).padStart(2,'0'):'시각 미확인';
@@ -48,7 +49,7 @@
   }
   function show(id,yes){$(id).style.display=yes?'':'none';}
   function updateView(){
-    const m=current(),v=visual(m),right=m&&(m.surface==='right'||m.kind==='navigation'&&v.cameraRight),road=m&&m.surface==='road';
+    const m=current(),v=visual(m),right=canPreview?.graphic?!!canPreview.right&&!canPreview.center:m&&(m.surface==='right'||m.kind==='navigation'&&v.cameraRight),road=!canPreview&&m&&m.surface==='road';
     $('cluster-wrap').classList.toggle('focused',zoom);$('cluster-wrap').classList.toggle('focus-right',!!right);
     $('cluster-wrap').classList.toggle('focus-road',!!road);
     $('cluster-svg').setAttribute('viewBox',zoom?(right?'825 55 340 350':road?'425 185 390 265':'415 35 410 405'):'0 0 1200 450');
@@ -81,9 +82,52 @@
     show('lane-center-fill',!!g.centerFill);$('lane-center-fill').setAttribute('fill',color(typeof g.centerFill==='string'?g.centerFill:'green'));
     show('surrounding-cars',g.traffic!==false);show('lead-car',g.lead!==false);
   }
+  function drawCenter(m){
+      const {size,lines,step}=fitText(m.text,258,60,18);
+      const height=Math.max(60,lines.length*step+16),y=111;
+      $('center-box').setAttribute('height',height);svgText($('center-message-text'),lines,620,y+(height-(lines.length-1)*step)/2+size*.34,step,size);
+    }
+  function drawRight(m){
+      const icon=m.icon||'none',off=icon.includes('off'),steering=icon.includes('steering')||icon.includes('lfa'),cruise=icon.includes('scc')||icon.includes('cruise'),lead=icon==='lead-car'||icon==='front-start',attention=icon.includes('attention')||icon.startsWith('driver'),triangle=icon==='triangle',front=icon==='front-warning',pedal=icon==='switch-pedal';
+      const label=icon.includes('hdp')?'HDP':icon==='hda'?'HDA':'';
+      const hasIcon=!!label||steering||cruise||lead||attention||triangle||front||pedal;
+      // 원의 상단 여백과 아이콘 시작점(268) 사이에 문구를 배치합니다.
+      const {lines,size,step}=fitText(m.text,hasIcon?220:240,hasIcon?84:180,20);
+      svgText($('right-message-text'),lines,980,(hasIcon?212:272)-(lines.length-1)*step/2+size*.34,step,size);
+      $('message-ring').setAttribute('stroke',color(m.ringColor||(m.bank==='v2'&&m.codes?.[0]===23?'yellow':'#d6f0ff')));
+      show('right-hdp',!!label);$('right-hdp').textContent=label;$('right-hdp').setAttribute('fill',label==='HDA'?colors.green:off?'#eff5ff':colors.cyan);
+      show('attention-icon',attention);show('right-steering',steering);show('right-cruise',cruise);show('right-lead',lead);show('off-mark',off);show('right-triangle',triangle);show('right-front-warning',front);show('right-pedal',pedal);
+      $('off-mark').setAttribute('transform',label?'translate(1043 342)':'translate(1021 353)');
+      $('right-steering').style.color=color(m.iconColor||'white');
+    }
+  function renderCanPreview(){
+    if(!canPreview)return;
+    const v=canPreview;
+    $('stage-source').textContent='DBC 신호 미리보기';$('stage-code').textContent='CAN';
+    $('surface-title').textContent='DBC 연동 · 관찰 문구 대조';
+    if(v.speedLimit!==undefined)$('speed-sign-text').textContent=String(v.speedLimit);
+    if(v.graphic){
+      roadStyle(v.graphic);
+      show('center-message',!!v.center);show('nav-banner',!v.center);
+      show('right-message',!!v.right);show('range-dial',!v.right);
+      show('camera-preview',false);show('camera-left-preview',false);
+      ['turn-arrow','secondary-sign-camera','secondary-sign-exclamation','secondary-sign-right-bend','secondary-sign-zigzag'].forEach(id=>show(id,false));
+      if(v.center)drawCenter(v.center);if(v.right)drawRight(v.right);
+      const iconColor={0:'#758698',1:'#758698',2:'#83ee39',3:'#dcebf5',5:'#57dcf6'};
+      $('top-system').textContent=v.hda===0?'':v.hda===5?'HDP':'HDA';
+      $('top-system').setAttribute('fill',iconColor[v.hda]||'#758698');
+      $('top-steering').style.color=iconColor[v.lfa]||'#758698';show('top-steering',v.lfa!==0);
+      $('test-value').textContent=v.setStyle===0?'':String(v.setSpeed);
+      $('test-value').setAttribute('fill',({1:'#758698',2:'#83ee39',3:'#dcebf5',6:'#57dcf6'})[v.setStyle]||'#758698');
+      $('ego-ring').style.opacity=v.circle===0?'0':'.9';$('ego-aura').style.opacity=v.circle===2?'1':'0';
+      $('ego-ring').setAttribute('stroke',v.circle===2?'#22d8ff':'#758698');
+    }
+    $('cluster-desc').textContent='DBC를 해석한 참고 시각화. 영상 시험 번호와 실제 차량 동작의 동일성을 검증한 것은 아닙니다.';
+  }
   function renderCluster(){
     const m=current();
-    if(!m){show('center-message',false);show('right-message',false);show('nav-banner',true);show('range-dial',true);show('camera-preview',false);['camera-left-preview','turn-arrow','wave-left','wave-right','ipedal-mark','secondary-sign-camera','secondary-sign-exclamation','secondary-sign-right-bend','secondary-sign-zigzag'].forEach(id=>show(id,false));$('test-value').textContent='—';$('stage-code').textContent='—';$('stage-source').textContent='검색 결과 없음';$('surface-title').textContent='메뉴를 선택하세요';$('cluster-desc').textContent='검색 조건에 맞는 메뉴가 없습니다.';roadStyle();updateView();return;}
+    show('top-steering',true);$('top-steering').style.color='#91f6f0';$('test-value').setAttribute('fill','#83f5ed');$('ego-ring').setAttribute('stroke','#22d8ff');
+    if(!m){show('center-message',false);show('right-message',false);show('nav-banner',true);show('range-dial',true);show('camera-preview',false);['camera-left-preview','turn-arrow','wave-left','wave-right','ipedal-mark','secondary-sign-camera','secondary-sign-exclamation','secondary-sign-right-bend','secondary-sign-zigzag'].forEach(id=>show(id,false));$('test-value').textContent='—';$('stage-code').textContent='—';$('stage-source').textContent='검색 결과 없음';$('surface-title').textContent='메뉴를 선택하세요';$('cluster-desc').textContent='검색 조건에 맞는 메뉴가 없습니다.';roadStyle();updateView();renderCanPreview();return;}
     const v=visual(m),cameraRight=m.kind==='camera'||v.cameraRight,cameraLeft=v.cameraLeft;
     const right=m.surface==='right'&&m.kind==='message',central=m.surface==='center'&&m.kind==='message',road=m.surface==='road';
     $('stage-source').textContent=shortBank(m);$('stage-code').textContent=m.bank==='lanes'?m.code:(currentNumber??m.code);
@@ -101,26 +145,10 @@
     $('speed-text').setAttribute('fill',color(v.speedColor||'#f2f6ff'));$('speed-sign-text').textContent=v.signValue||'100';
     show('turn-arrow',!!v.turnRight||m.kind==='camera');show('wave-left',v.redWaves==='left'||v.redWaves==='both');show('wave-right',v.redWaves==='right'||v.redWaves==='both');show('ipedal-mark',!!v.iPedal);
     ['camera','exclamation','right-bend','zigzag'].forEach(k=>show('secondary-sign-'+k,v.secondarySign===k));
-    if(central){
-      const {size,lines,step}=fitText(m.text,258,60,18);
-      const height=Math.max(60,lines.length*step+16),y=111;
-      $('center-box').setAttribute('height',height);svgText($('center-message-text'),lines,620,y+(height-(lines.length-1)*step)/2+size*.34,step,size);
-    }
-    if(right){
-      const icon=m.icon||'none',off=icon.includes('off'),steering=icon.includes('steering')||icon.includes('lfa'),cruise=icon.includes('scc')||icon.includes('cruise'),lead=icon==='lead-car'||icon==='front-start',attention=icon.includes('attention')||icon.startsWith('driver'),triangle=icon==='triangle',front=icon==='front-warning',pedal=icon==='switch-pedal';
-      const label=icon.includes('hdp')?'HDP':icon==='hda'?'HDA':'';
-      const hasIcon=!!label||steering||cruise||lead||attention||triangle||front||pedal;
-      // 원의 상단 여백과 아이콘 시작점(268) 사이에 문구를 배치합니다.
-      const {lines,size,step}=fitText(m.text,hasIcon?220:240,hasIcon?84:180,20);
-      svgText($('right-message-text'),lines,980,(hasIcon?212:272)-(lines.length-1)*step/2+size*.34,step,size);
-      $('message-ring').setAttribute('stroke',color(m.ringColor||(m.bank==='v2'&&m.codes?.[0]===23?'yellow':'#d6f0ff')));
-      show('right-hdp',!!label);$('right-hdp').textContent=label;$('right-hdp').setAttribute('fill',label==='HDA'?colors.green:off?'#eff5ff':colors.cyan);
-      show('attention-icon',attention);show('right-steering',steering);show('right-cruise',cruise);show('right-lead',lead);show('off-mark',off);show('right-triangle',triangle);show('right-front-warning',front);show('right-pedal',pedal);
-      $('off-mark').setAttribute('transform',label?'translate(1043 342)':'translate(1021 353)');
-      $('right-steering').style.color=color(m.iconColor||'white');
-    }
+    if(central)drawCenter(m);
+    if(right)drawRight(m);
     $('cluster-desc').textContent=shortBank(m)+', '+(m.bank==='lanes'?'메뉴 ':'테스트 값 ')+(currentNumber??m.code)+', '+m.text;
-    updateView();
+    updateView();renderCanPreview();
   }
   function renderOptions(){
     const select=$('message-select');select.replaceChildren();
@@ -158,12 +186,13 @@
     if(scroll){const active=document.querySelector('.message-item[aria-current="true"]');if(active){const list=$('message-list'),a=active.getBoundingClientRect(),r=list.getBoundingClientRect();if(a.top<r.top||a.bottom>r.bottom)list.scrollTop+=a.top-r.top-10;}}
     renderCluster();
   }
-  function selectMessage(id,scroll,number=null){selected=id;currentNumber=number;updateSelected(scroll);}
+  function selectMessage(id,scroll,number=null){document.dispatchEvent(new Event('cluster-menu-selected'));selected=id;currentNumber=number;updateSelected(scroll);}
   function refresh(){const items=filtered();if(!items.some(m=>m.id===selected)){selected=items[0]?.id||null;currentNumber=null;}renderOptions();renderList();updateSelected(true);}
-  function setBank(next){stopPlay();bank=next;document.querySelectorAll('.bank-tab').forEach(t=>t.setAttribute('aria-selected',String(t.dataset.bank===bank)));refresh();}
+  function setBank(next){document.dispatchEvent(new Event('cluster-menu-selected'));stopPlay();bank=next;document.querySelectorAll('.bank-tab').forEach(t=>t.setAttribute('aria-selected',String(t.dataset.bank===bank)));refresh();}
   function step(direction){const items=filtered();if(!items.length)return;const i=(items.findIndex(m=>m.id===selected)+direction+items.length)%items.length;selectMessage(items[i].id,true);}
   function jumpTo(value){
     const m=current();if(!m||m.bank==='lanes')return;
+    document.dispatchEvent(new Event('cluster-menu-selected'));
     const n=Number(value);if(!Number.isInteger(n)){toast('정수 번호를 입력해 주세요.');return;}
     const found=data.find(x=>x.bank===m.bank&&(x.codes||[]).includes(n));
     if(!found){toast('영상에서 확인되지 않은 번호입니다.');return;}
@@ -191,5 +220,6 @@
   const categories=[...new Set(data.map(m=>m.category))];categories.sort((a,b)=>a.localeCompare(b,'ko'));categories.forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;$('category-select').appendChild(o);});
   document.querySelectorAll('.bank-count').forEach(n=>{n.textContent=n.dataset.bank==='all'?data.length:data.filter(m=>m.bank===n.dataset.bank).length;});
   $('total-count').textContent=data.length;$('message-count').textContent=data.filter(m=>m.kind==='message').length;$('graphic-count').textContent=data.filter(m=>m.kind==='graphic'||m.kind==='unverified'||m.kind==='camera').length;$('empty-count').textContent=data.filter(isEmpty).length;
+  document.addEventListener('cluster-can-preview',e=>{stopPlay();canPreview=e.detail;renderCluster();});
   renderOptions();renderList();updateSelected(true);if(document.fonts?.ready)document.fonts.ready.then(renderCluster);
 })();
