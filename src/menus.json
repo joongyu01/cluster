@@ -1,0 +1,7481 @@
+[
+  {
+    "id": "v1-navigation-0",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "0",
+    "codes": [
+      0
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 7,
+    "icon": "navigation-route",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션 기본 표시",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-1",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "1",
+    "codes": [
+      1
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "가속 페달에서 발을 떼십시오.",
+    "category": "운전자·조작",
+    "timeSeconds": 8,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "페달 조작",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-2",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "2",
+    "codes": [
+      2
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "브레이크 페달에서 발을 떼십시오.",
+    "category": "운전자·조작",
+    "timeSeconds": 9,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "페달 조작",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-3",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "3",
+    "codes": [
+      3
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "고속도로 부분 자율주행 시스템 작동 중에는 사용할 수 없습니다.",
+    "category": "HDP",
+    "timeSeconds": 10,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "HDP 사용 조건",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-4",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "4",
+    "codes": [
+      4
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "고속도로 부분 자율주행을 종료하려면 핸들을 잡고 버튼을 길게 누르십시오.",
+    "category": "HDP",
+    "timeSeconds": 11,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "HDP 종료",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-5",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "5",
+    "codes": [
+      5
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "안전을 위해 가속을 제한합니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 12,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "가속 제한",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-6",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "6",
+    "codes": [
+      6
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "비상등 및 방향지시등 스위치를 끄십시오.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 13,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "등화 조작",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-7",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "7",
+    "codes": [
+      7
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "운전석 자세를 주행에 안전하게 유지하십시오.",
+    "category": "운전자·조작",
+    "timeSeconds": 14,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "운전 자세",
+      ""
+    ]
+  },
+  {
+    "id": "v1-navigation-8–15",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "8–15",
+    "codes": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 15,
+    "icon": "navigation-route",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션 기본 표시",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-16",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "16",
+    "codes": [
+      16
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "설정속도가 변경되었습니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 23,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "설정속도",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-17",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "17",
+    "codes": [
+      17
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "운전자의 시야 확보를 위해 앞유리 습기 제거 기능을 작동합니다.",
+    "category": "운전자·조작",
+    "timeSeconds": 24,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "시야 확보",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-18",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "18",
+    "codes": [
+      18
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "와이퍼 및 라이트 스위치를 AUTO로 변경하십시오.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 25,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "등화·와이퍼",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-19",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "19",
+    "codes": [
+      19
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "안전을 위해 합류 구간에서 감속합니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 26,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "감속 안내",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-20",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "20",
+    "codes": [
+      20
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "안전을 위해 공사 구간에서 감속합니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 27,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "감속 안내",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-21",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "21",
+    "codes": [
+      21
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "센서 감지 범위에 맞춰 속도를 제한합니다.",
+    "category": "센서·인식",
+    "timeSeconds": 28,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "속도 제한",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-22",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "22",
+    "codes": [
+      22
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "잠시 후부터 직접 운전하십시오. 고속도로 부분 자율주행 작동 구간이 종료됩니다.",
+    "category": "HDP",
+    "timeSeconds": 29,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "직접 운전 전환",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-23",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "23",
+    "codes": [
+      23
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "잠시 후부터 직접 운전하십시오. 전방에 진출입 구간이 있습니다.",
+    "category": "HDP",
+    "timeSeconds": 30,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "직접 운전 전환",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-24",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "24",
+    "codes": [
+      24
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "잠시 후부터 직접 운전하십시오. 전방에 톨게이트가 있습니다.",
+    "category": "HDP",
+    "timeSeconds": 31,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "직접 운전 전환",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-25",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "25",
+    "codes": [
+      25
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "잠시 후부터 직접 운전하십시오. 전방에 공사 및 사고 발생 구간이 있습니다.",
+    "category": "HDP",
+    "timeSeconds": 32,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "직접 운전 전환",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-26",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "26",
+    "codes": [
+      26
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "긴급 차량을 위해 주행 공간을 확보합니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 33,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "긴급 차량",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-27",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "27",
+    "codes": [
+      27
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "교통 흐름에 비해 주행속도가 낮습니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 34,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "주행속도",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-28",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "28",
+    "codes": [
+      28
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "일몰 후에는 전방에 차가 있는 안쪽 차로에서만 고속도로 부분 자율주행을 사용할 수 있습니다.",
+    "category": "HDP",
+    "timeSeconds": 35,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "HDP 야간 조건",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-29",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "29",
+    "codes": [
+      29
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "전방에 합류 구간이 감지되어 속도를 제한합니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 36,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "속도 제한",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-30",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "30",
+    "codes": [
+      30
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "주변에 공사 구간이 감지되어 속도를 제한합니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 37,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "속도 제한",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-31",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "31",
+    "codes": [
+      31
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "안전을 위해 잠시 속도를 제한합니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 38,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "속도 제한",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-32",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "32",
+    "codes": [
+      32
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "고속도로 부분 자율주행 시스템을 시작하려면 버튼을 길게 누르십시오.",
+    "category": "HDP",
+    "timeSeconds": 38.7,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "HDP 시작",
+      ""
+    ]
+  },
+  {
+    "id": "v1-navigation-33–34",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "33–34",
+    "codes": [
+      33,
+      34
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 40,
+    "icon": "navigation-route",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션 기본 표시",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-35",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "35",
+    "codes": [
+      35
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "잠시 후부터 직접 운전하십시오. 전방에 작동할 수 없는 터널이 있습니다.",
+    "category": "HDP",
+    "timeSeconds": 42.1,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "직접 운전 전환",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-36",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "36",
+    "codes": [
+      36
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "잠시 후부터 직접 운전하십시오. 전방에 검문소가 있습니다.",
+    "category": "HDP",
+    "timeSeconds": 43.1,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "직접 운전 전환",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-37",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "37",
+    "codes": [
+      37
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "시스템 점검 중입니다. 홈페이지 (kia.com)를 참고하십시오.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 44.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "시스템 점검",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-38",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "38",
+    "codes": [
+      38
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "내비게이션 업데이트 후 사용할 수 있습니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 45.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "내비게이션 업데이트",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-39",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "39",
+    "codes": [
+      39
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "잠시 후부터 직접 운전하십시오. 전방에 작동할 수 없는 차로가 있습니다.",
+    "category": "HDP",
+    "timeSeconds": 46.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "직접 운전 전환",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-40",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "40",
+    "codes": [
+      40
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "고속도로 부분 자율주행 시스템을 시작할 수 있습니다.",
+    "category": "HDP",
+    "timeSeconds": 47.1,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "HDP 시작",
+      ""
+    ]
+  },
+  {
+    "id": "v1-navigation-41–63",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "41–63",
+    "codes": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 48,
+    "icon": "navigation-route",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션 기본 표시",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-64",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "64",
+    "codes": [
+      64
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "비상 정차 작동 후에는 시동을 다시 거십시오.",
+    "category": "운전자·조작",
+    "timeSeconds": 71.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "비상 정차",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-65",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "65",
+    "codes": [
+      65
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "커넥티드 서비스를 사용할 수 없습니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 72.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "커넥티드 서비스",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-66",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "66",
+    "codes": [
+      66
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "차량 업데이트 후 사용할 수 있습니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 73.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "차량 업데이트",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-67",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "67",
+    "codes": [
+      67
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "작동 구간이 아닙니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 74.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "작동 구간",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-68",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "68",
+    "codes": [
+      68
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "차량을 고속도로 본선으로 이동하십시오.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 75.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "작동 구간",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-69",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "69",
+    "codes": [
+      69
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "경고 중에는 시작할 수 없습니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 76.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "작동 조건",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-70",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "70",
+    "codes": [
+      70
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "진출입 구간에서는 작동하지 않습니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 77.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "작동 구간",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-71",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "71",
+    "codes": [
+      71
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "작동 가능 차로가 아닙니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 78.1,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "작동 차로",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-72",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "72",
+    "codes": [
+      72
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "작동 가능한 국가가 아닙니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 79.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "작동 국가",
+      ""
+    ]
+  },
+  {
+    "id": "v1-navigation-73",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "73",
+    "codes": [
+      73
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 80,
+    "icon": "navigation-route",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션 기본 표시",
+      ""
+    ]
+  },
+  {
+    "id": "v1-camera-74–75",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "74–75",
+    "codes": [
+      74,
+      75
+    ],
+    "kind": "camera",
+    "surface": "right",
+    "text": "오른쪽 원형 영역에 측방 카메라 화면 표시",
+    "category": "측방 카메라",
+    "timeSeconds": 81.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "이 번호가 보인 순간에 함께 관찰된 화면입니다. 번호가 이 표시를 발생시키는지는 확인되지 않았습니다. 카메라 영상은 도식으로 재현합니다.",
+    "tags": [
+      "측방 카메라 관찰 상태",
+      ""
+    ]
+  },
+  {
+    "id": "v1-navigation-76–78",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "76–78",
+    "codes": [
+      76,
+      77,
+      78
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 83,
+    "icon": "navigation-route",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션 기본 표시",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-79",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "79",
+    "codes": [
+      79
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "센서 감지 범위 확인 중입니다.",
+    "category": "센서·인식",
+    "timeSeconds": 86.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "센서",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-80",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "80",
+    "codes": [
+      80
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "D단으로 이동하십시오.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 87.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "변속 조작",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-81",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "81",
+    "codes": [
+      81
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "AUTO STOP 작동 중입니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 88.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "AUTO STOP",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-82",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "82",
+    "codes": [
+      82
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "전방 안전 거리를 확보하십시오.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 89.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "안전거리",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-83",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "83",
+    "codes": [
+      83
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "주행속도가 높습니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 90.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "주행속도",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-84",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "84",
+    "codes": [
+      84
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "차량을 차로 중앙에 정렬하십시오.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 91.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "차로 정렬",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-85",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "85",
+    "codes": [
+      85
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "원격 스마트 주차 보조 시스템이 작동 중입니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 92.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "주차 보조",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-86",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "86",
+    "codes": [
+      86
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "차체 자세 제어를 켜십시오.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 93.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "차체 자세 제어",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-87",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "87",
+    "codes": [
+      87
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "사이드 미러를 펴십시오.",
+    "category": "차량 상태",
+    "timeSeconds": 94.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "사이드 미러",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-88",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "88",
+    "codes": [
+      88
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "일몰 후에는 바깥 차로에서 운행할 수 없습니다.",
+    "category": "HDP",
+    "timeSeconds": 95.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "야간 운행",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-89",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "89",
+    "codes": [
+      89
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "일몰 후에는 안전을 위해 속도를 제한합니다.",
+    "category": "HDP",
+    "timeSeconds": 96.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "야간 속도 제한",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-90",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "90",
+    "codes": [
+      90
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "일몰 후에는 고속도로 부분 자율주행 시스템을 사용할 수 없습니다.",
+    "category": "HDP",
+    "timeSeconds": 97.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "HDP 야간 조건",
+      ""
+    ]
+  },
+  {
+    "id": "v1-camera-91–92",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "91–92",
+    "codes": [
+      91,
+      92
+    ],
+    "kind": "camera",
+    "surface": "right",
+    "text": "오른쪽 원형 영역에 측방 카메라 화면 표시",
+    "category": "측방 카메라",
+    "timeSeconds": 98.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "이 번호가 보인 순간에 함께 관찰된 화면입니다. 번호가 이 표시를 발생시키는지는 확인되지 않았습니다. 카메라 영상은 도식으로 재현합니다.",
+    "tags": [
+      "측방 카메라 관찰 상태",
+      ""
+    ]
+  },
+  {
+    "id": "v1-navigation-93–99",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "93–99",
+    "codes": [
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 100,
+    "icon": "navigation-route",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션 기본 표시",
+      ""
+    ]
+  },
+  {
+    "id": "v1-navigation-100–103",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "100–103",
+    "codes": [
+      100,
+      101,
+      102,
+      103
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 107,
+    "icon": "navigation-route",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션 기본 표시",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-104",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "104",
+    "codes": [
+      104
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "급격한 제동 또는 조향이 감지되었습니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 111.2,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "급조작 감지",
+      ""
+    ]
+  },
+  {
+    "id": "v1-navigation-105–109",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "105–109",
+    "codes": [
+      105,
+      106,
+      107,
+      108,
+      109
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 112,
+    "icon": "navigation-route",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션 기본 표시",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-110",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "110",
+    "codes": [
+      110
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "센서 보정 중입니다. 수 분이 소요될 수 있습니다.",
+    "category": "센서·인식",
+    "timeSeconds": 117.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "센서 보정",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-111",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "111",
+    "codes": [
+      111
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "잠시 후에 고속도로 부분 자율주행 시스템을 사용할 수 있습니다.",
+    "category": "HDP",
+    "timeSeconds": 118.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "HDP 시작",
+      ""
+    ]
+  },
+  {
+    "id": "v1-message-112",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "112",
+    "codes": [
+      112
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "핸들을 잡으면 고속도로 부분 자율주행 시스템이 종료됩니다.",
+    "category": "HDP",
+    "timeSeconds": 119.5,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "HDP 종료",
+      ""
+    ]
+  },
+  {
+    "id": "v1-navigation-113–119",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "113–119",
+    "codes": [
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 120,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션",
+      ""
+    ],
+    "visualByCode": {
+      "113": {
+        "topSystem": "HDP",
+        "signValue": "—",
+        "topColor": "cyan"
+      },
+      "114": {
+        "signValue": "—"
+      },
+      "115": {
+        "signValue": "—"
+      },
+      "116": {
+        "signValue": "—"
+      },
+      "117": {
+        "signValue": "—"
+      },
+      "118": {
+        "signValue": "—"
+      },
+      "119": {
+        "signValue": "—"
+      }
+    }
+  },
+  {
+    "id": "v1-message-120",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "120",
+    "codes": [
+      120
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "외부 충격이 감지되었습니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 127,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "충격 감지",
+      ""
+    ],
+    "visualByCode": {
+      "120": {
+        "topSystem": "HDP",
+        "signValue": "—"
+      }
+    }
+  },
+  {
+    "id": "v1-navigation-121–127",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "121–127",
+    "codes": [
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 128,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션",
+      ""
+    ],
+    "visualByCode": {
+      "121": {
+        "signValue": "—"
+      },
+      "122": {
+        "signValue": "—"
+      },
+      "123": {
+        "signValue": "—"
+      },
+      "124": {
+        "signValue": "—"
+      },
+      "125": {
+        "signValue": "—"
+      },
+      "126": {
+        "signValue": "—"
+      },
+      "127": {
+        "signValue": "—"
+      }
+    }
+  },
+  {
+    "id": "v1-message-128",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "128",
+    "codes": [
+      128
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "적합하지 않은 가속 페달 조작이 감지되었습니다.",
+    "category": "운전자·조작",
+    "timeSeconds": 135,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "운전자 조작",
+      ""
+    ],
+    "visualByCode": {
+      "128": {
+        "signValue": "—",
+        "speedColor": "white"
+      }
+    }
+  },
+  {
+    "id": "v1-message-129",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "129",
+    "codes": [
+      129
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "변속기 조작이 감지되었습니다.",
+    "category": "운전자·조작",
+    "timeSeconds": 136,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "변속기",
+      ""
+    ],
+    "visualByCode": {
+      "129": {
+        "turnRight": true,
+        "graphic": {
+          "arrow": "right"
+        },
+        "signValue": "—"
+      }
+    }
+  },
+  {
+    "id": "v1-message-130",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "130",
+    "codes": [
+      130
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "적합하지 않은 브레이크 페달 조작이 감지되었습니다.",
+    "category": "운전자·조작",
+    "timeSeconds": 137,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "운전자 조작",
+      ""
+    ],
+    "visualByCode": {
+      "130": {
+        "cameraRight": true,
+        "graphic": {
+          "arrow": "right"
+        },
+        "signValue": "—"
+      }
+    }
+  },
+  {
+    "id": "v1-message-131",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "131",
+    "codes": [
+      131
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "시동 버튼 조작이 감지되었습니다.",
+    "category": "운전자·조작",
+    "timeSeconds": 138,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "시동 버튼",
+      ""
+    ],
+    "visualByCode": {
+      "131": {
+        "cameraRight": true,
+        "graphic": {
+          "arrow": "right"
+        },
+        "signValue": "—"
+      }
+    }
+  },
+  {
+    "id": "v1-message-132",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "132",
+    "codes": [
+      132
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "정차 상태가 지속되고 있습니다.",
+    "category": "운전자·조작",
+    "timeSeconds": 139,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "정차 상태",
+      ""
+    ],
+    "visualByCode": {
+      "132": {
+        "signValue": "—"
+      }
+    }
+  },
+  {
+    "id": "v1-navigation-133",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "133",
+    "codes": [
+      133
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 140,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션",
+      ""
+    ],
+    "visualByCode": {
+      "133": {
+        "signValue": "—"
+      }
+    }
+  },
+  {
+    "id": "v1-message-134",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "134",
+    "codes": [
+      134
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "전방에 작동할 수 없는 터널이 있습니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 141,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "도로·구간",
+      ""
+    ],
+    "visualByCode": {
+      "134": {
+        "signValue": "—"
+      }
+    }
+  },
+  {
+    "id": "v1-navigation-135–139",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "135–139",
+    "codes": [
+      135,
+      136,
+      137,
+      138,
+      139
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 142,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션",
+      ""
+    ],
+    "visualByCode": {
+      "135": {
+        "signValue": "—"
+      },
+      "136": {
+        "signValue": "—"
+      },
+      "137": {
+        "signValue": "30"
+      },
+      "138": {
+        "signValue": "30"
+      },
+      "139": {
+        "signValue": "30"
+      }
+    }
+  },
+  {
+    "id": "v1-navigation-140",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "140",
+    "codes": [
+      140
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 147,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션",
+      ""
+    ],
+    "visualByCode": {
+      "140": {
+        "signValue": "30"
+      }
+    }
+  },
+  {
+    "id": "v1-message-141",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "141",
+    "codes": [
+      141
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "정체가 해소되었습니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 148,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "교통 상황",
+      ""
+    ],
+    "visualByCode": {
+      "141": {
+        "signValue": "30"
+      }
+    }
+  },
+  {
+    "id": "v1-message-142",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "142",
+    "codes": [
+      142
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "전방에 진출입 구간이 있습니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 149,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "도로·구간",
+      ""
+    ],
+    "visualByCode": {
+      "142": {
+        "signValue": "30"
+      }
+    }
+  },
+  {
+    "id": "v1-message-143",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "143",
+    "codes": [
+      143
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "전방에 작동 불가 차로가 있습니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 150,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "도로·구간",
+      ""
+    ],
+    "visualByCode": {
+      "143": {
+        "signValue": "30"
+      }
+    }
+  },
+  {
+    "id": "v1-message-144",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "144",
+    "codes": [
+      144
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "작동 구간이 종료됩니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 151,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "작동 구간",
+      ""
+    ],
+    "visualByCode": {
+      "144": {
+        "signValue": "30"
+      }
+    }
+  },
+  {
+    "id": "v1-message-145",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "145",
+    "codes": [
+      145
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "차로 이탈이 감지되었습니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 152,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "차로 이탈",
+      ""
+    ],
+    "visualByCode": {
+      "145": {
+        "signValue": "30"
+      }
+    }
+  },
+  {
+    "id": "v1-message-146",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "146",
+    "codes": [
+      146
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "최대속도를 초과했습니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 153,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "속도",
+      ""
+    ],
+    "visualByCode": {
+      "146": {
+        "signValue": "30"
+      }
+    }
+  },
+  {
+    "id": "v1-message-147",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "147",
+    "codes": [
+      147
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "이상 작동이 감지되어 고속도로 부분 자율주행 시스템을 사용할 수 없습니다.",
+    "category": "HDP",
+    "timeSeconds": 154,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "시스템 이상",
+      ""
+    ],
+    "visualByCode": {
+      "147": {
+        "signValue": "30"
+      }
+    }
+  },
+  {
+    "id": "v1-message-148",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "148",
+    "codes": [
+      148
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "와이퍼 또는 라이트 스위치 설정이 고속도로 부분 자율주행에 적합하지 않습니다.",
+    "category": "HDP",
+    "timeSeconds": 155,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "와이퍼·조명",
+      ""
+    ],
+    "visualByCode": {
+      "148": {
+        "signValue": "30"
+      }
+    }
+  },
+  {
+    "id": "v1-message-149",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "149",
+    "codes": [
+      149
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "앞유리 습기 제거 설정이 고속도로 부분 자율주행에 적합하지 않습니다.",
+    "category": "HDP",
+    "timeSeconds": 156,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "공조",
+      ""
+    ],
+    "visualByCode": {
+      "149": {
+        "signValue": "30"
+      }
+    }
+  },
+  {
+    "id": "v1-message-150",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "150",
+    "codes": [
+      150
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "비상등 또는 방향지시등 조작이 감지되었습니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 157,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "등화 조작",
+      ""
+    ],
+    "visualByCode": {
+      "150": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-151",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "151",
+    "codes": [
+      151
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "전방에 장애물이 감지되어 핸들을 긴급히 조향합니다.",
+    "category": "운전자·조작",
+    "timeSeconds": 158,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "긴급 조향",
+      ""
+    ],
+    "visualByCode": {
+      "151": {
+        "cameraLeft": true,
+        "graphic": {
+          "arrow": "left",
+          "leftFill": true
+        },
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-152",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "152",
+    "codes": [
+      152
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "센서 감지 거리가 확보되지 않아 고속도로 부분 자율주행 시스템을 사용할 수 없습니다.",
+    "category": "HDP",
+    "timeSeconds": 159,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "센서",
+      ""
+    ],
+    "visualByCode": {
+      "152": {
+        "cameraLeft": true,
+        "graphic": {
+          "leftFill": true
+        },
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-navigation-153–159",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "153–159",
+    "codes": [
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 160,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션",
+      ""
+    ],
+    "visualByCode": {
+      "153": {
+        "graphic": {
+          "leftFill": true
+        },
+        "signValue": "70"
+      },
+      "154": {
+        "graphic": {
+          "leftFill": true
+        },
+        "signValue": "70"
+      },
+      "155": {
+        "graphic": {
+          "leftFill": true
+        },
+        "signValue": "70"
+      },
+      "156": {
+        "redWaves": "left",
+        "graphic": {
+          "leftFill": true
+        },
+        "signValue": "70"
+      },
+      "157": {
+        "redWaves": "left",
+        "signValue": "70"
+      },
+      "158": {
+        "signValue": "70"
+      },
+      "159": {
+        "redWaves": "left",
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-160",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "160",
+    "codes": [
+      160
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "고속도로 부분 자율주행 시스템을 점검하십시오.",
+    "category": "HDP",
+    "timeSeconds": 167,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "시스템 점검",
+      ""
+    ],
+    "visualByCode": {
+      "160": {
+        "redWaves": "left",
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-161",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "161",
+    "codes": [
+      161
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "안전 기능이 작동했습니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 168,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "안전 기능",
+      ""
+    ],
+    "visualByCode": {
+      "161": {
+        "redWaves": "left",
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-navigation-162–175",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "162–175",
+    "codes": [
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 169,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션",
+      ""
+    ],
+    "visualByCode": {
+      "162": {
+        "redWaves": "left",
+        "signValue": "70"
+      },
+      "163": {
+        "redWaves": "left",
+        "signValue": "70"
+      },
+      "164": {
+        "redWaves": "left",
+        "signValue": "70"
+      },
+      "165": {
+        "signValue": "70"
+      },
+      "166": {
+        "signValue": "70"
+      },
+      "167": {
+        "signValue": "70"
+      },
+      "168": {
+        "signValue": "70"
+      },
+      "169": {
+        "signValue": "70"
+      },
+      "170": {
+        "redWaves": "right",
+        "signValue": "70"
+      },
+      "171": {
+        "redWaves": "right",
+        "signValue": "70"
+      },
+      "172": {
+        "signValue": "70"
+      },
+      "173": {
+        "signValue": "70"
+      },
+      "174": {
+        "redWaves": "both",
+        "signValue": "70"
+      },
+      "175": {
+        "redWaves": "both",
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-176",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "176",
+    "codes": [
+      176
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "카메라 시야가 제한되었습니다.",
+    "category": "센서·인식",
+    "timeSeconds": 183,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "카메라",
+      ""
+    ],
+    "visualByCode": {
+      "176": {
+        "topSystem": "HDP",
+        "redWaves": "both",
+        "signValue": "70",
+        "speedColor": "white",
+        "topColor": "cyan"
+      }
+    }
+  },
+  {
+    "id": "v1-message-177",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "177",
+    "codes": [
+      177
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "레이더 감지가 제한되었습니다.",
+    "category": "센서·인식",
+    "timeSeconds": 184,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "레이더",
+      ""
+    ],
+    "visualByCode": {
+      "177": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-178",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "178",
+    "codes": [
+      178
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "라이다 감지가 제한되었습니다.",
+    "category": "센서·인식",
+    "timeSeconds": 185,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "라이다",
+      ""
+    ],
+    "visualByCode": {
+      "178": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-179",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "179",
+    "codes": [
+      179
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "에어백 경고등이 켜졌습니다.",
+    "category": "차량 상태",
+    "timeSeconds": 186,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "에어백",
+      ""
+    ],
+    "visualByCode": {
+      "179": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-180",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "180",
+    "codes": [
+      180
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "트레일러 연결이 감지되었습니다.",
+    "category": "차량 상태",
+    "timeSeconds": 187,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "트레일러",
+      ""
+    ],
+    "visualByCode": {
+      "180": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-181",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "181",
+    "codes": [
+      181
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "외부 온도가 높습니다.",
+    "category": "환경·노면",
+    "timeSeconds": 188,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "외기온",
+      ""
+    ],
+    "visualByCode": {
+      "181": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-182",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "182",
+    "codes": [
+      182
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "외부 온도가 낮습니다.",
+    "category": "환경·노면",
+    "timeSeconds": 189,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "외기온",
+      ""
+    ],
+    "visualByCode": {
+      "182": {
+        "redWaves": "right",
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-navigation-183–189",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "183–189",
+    "codes": [
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 190,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션",
+      ""
+    ],
+    "visualByCode": {
+      "183": {
+        "redWaves": "both",
+        "signValue": "70"
+      },
+      "184": {
+        "redWaves": "both",
+        "signValue": "70"
+      },
+      "185": {
+        "signValue": "70"
+      },
+      "186": {
+        "redWaves": "left",
+        "signValue": "70",
+        "secondarySign": "zigzag"
+      },
+      "187": {
+        "signValue": "70",
+        "secondarySign": "zigzag"
+      },
+      "188": {
+        "signValue": "70",
+        "secondarySign": "zigzag"
+      },
+      "189": {
+        "signValue": "70",
+        "secondarySign": "zigzag"
+      }
+    }
+  },
+  {
+    "id": "v1-message-190",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "190",
+    "codes": [
+      190
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "공사 및 사고 발생 구간에서는 작동하지 않습니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 197,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "도로·구간",
+      ""
+    ],
+    "visualByCode": {
+      "190": {
+        "signValue": "70",
+        "secondarySign": "zigzag"
+      }
+    }
+  },
+  {
+    "id": "v1-message-191",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "191",
+    "codes": [
+      191
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "톨게이트 구간에서는 작동하지 않습니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 198,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "도로·구간",
+      ""
+    ],
+    "visualByCode": {
+      "191": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-192",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "192",
+    "codes": [
+      192
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "운전석이 운전에 안전한 위치가 아닙니다.",
+    "category": "운전자·조작",
+    "timeSeconds": 199,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "운전석",
+      ""
+    ],
+    "visualByCode": {
+      "192": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-193",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "193",
+    "codes": [
+      193
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "전방에 역주행 차량이 감지되었습니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 200,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "전방 위험",
+      ""
+    ],
+    "visualByCode": {
+      "193": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-194",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "194",
+    "codes": [
+      194
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "긴급 차량이 감지되었습니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 201,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "긴급 차량",
+      ""
+    ],
+    "visualByCode": {
+      "194": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-195",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "195",
+    "codes": [
+      195
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "전방에 장애물이 감지되었습니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 202,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "장애물",
+      ""
+    ],
+    "visualByCode": {
+      "195": {
+        "redWaves": "left",
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-196",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "196",
+    "codes": [
+      196
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "비, 눈 또는 도로 이물질로 인해 센서 감지가 원활하지 않습니다.",
+    "category": "센서·인식",
+    "timeSeconds": 203,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "센서·기상",
+      ""
+    ],
+    "visualByCode": {
+      "196": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-197",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "197",
+    "codes": [
+      197
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "노면이 미끄럽습니다.",
+    "category": "환경·노면",
+    "timeSeconds": 204,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "노면",
+      ""
+    ],
+    "visualByCode": {
+      "197": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-198",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "198",
+    "codes": [
+      198
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "전방에 공사 구간이 감지되었습니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 205,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "공사",
+      ""
+    ],
+    "visualByCode": {
+      "198": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-199",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "199",
+    "codes": [
+      199
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "전방에 보행자가 감지되었습니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 206,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "보행자",
+      ""
+    ],
+    "visualByCode": {
+      "199": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-200",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "200",
+    "codes": [
+      200
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "적합하지 않은 운전석 시트 조절이 감지되었습니다.",
+    "category": "운전자·조작",
+    "timeSeconds": 207,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "운전석",
+      ""
+    ],
+    "visualByCode": {
+      "200": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-201",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "201",
+    "codes": [
+      201
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "사이드 미러가 접혔습니다.",
+    "category": "차량 상태",
+    "timeSeconds": 208,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "미러",
+      ""
+    ],
+    "visualByCode": {
+      "201": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-navigation-202–207",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "202–207",
+    "codes": [
+      202,
+      203,
+      204,
+      205,
+      206,
+      207
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 209,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션",
+      ""
+    ],
+    "visualByCode": {
+      "202": {
+        "signValue": "70"
+      },
+      "203": {
+        "signValue": "70"
+      },
+      "204": {
+        "signValue": "70"
+      },
+      "205": {
+        "signValue": "70"
+      },
+      "206": {
+        "signValue": "70"
+      },
+      "207": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-208",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "208",
+    "codes": [
+      208
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "차량 위치 인식이 원활하지 않습니다.",
+    "category": "센서·인식",
+    "timeSeconds": 215,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "위치 인식",
+      ""
+    ],
+    "visualByCode": {
+      "208": {
+        "redWaves": "left",
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-209",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "209",
+    "codes": [
+      209
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "차선을 인식할 수 없습니다.",
+    "category": "센서·인식",
+    "timeSeconds": 216,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "차선 인식",
+      ""
+    ],
+    "visualByCode": {
+      "209": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-210",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "210",
+    "codes": [
+      210
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "운전자를 인식할 수 없습니다.",
+    "category": "센서·인식",
+    "timeSeconds": 217,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "운전자 인식",
+      ""
+    ],
+    "visualByCode": {
+      "210": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-211",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "211",
+    "codes": [
+      211
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "전방을 주시하십시오.",
+    "category": "운전자·조작",
+    "timeSeconds": 218,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "운전자 주시",
+      ""
+    ],
+    "visualByCode": {
+      "211": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-212",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "212",
+    "codes": [
+      212
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "일몰 후에는 전방에 차가 있어야 합니다.",
+    "category": "환경·노면",
+    "timeSeconds": 219,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "야간 주행",
+      ""
+    ],
+    "visualByCode": {
+      "212": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-213",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "213",
+    "codes": [
+      213
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "전방에 차량이 감지되지 않습니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 220,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "선행차",
+      ""
+    ],
+    "visualByCode": {
+      "213": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-214",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "214",
+    "codes": [
+      214
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "검문소 구간에서는 작동하지 않습니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 221,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "도로·구간",
+      ""
+    ],
+    "visualByCode": {
+      "214": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-message-215",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "215",
+    "codes": [
+      215
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "작동할 수 없는 터널입니다.",
+    "category": "도로·주행 조건",
+    "timeSeconds": 222,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "도로·구간",
+      ""
+    ],
+    "visualByCode": {
+      "215": {
+        "signValue": "70"
+      }
+    }
+  },
+  {
+    "id": "v1-navigation-216–227",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "216–227",
+    "codes": [
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 223,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션",
+      ""
+    ],
+    "visualByCode": {
+      "216": {
+        "signValue": "70"
+      },
+      "217": {
+        "signValue": "70"
+      },
+      "218": {
+        "signValue": "70"
+      },
+      "219": {
+        "signValue": "70"
+      },
+      "220": {
+        "signValue": "70"
+      },
+      "221": {
+        "signValue": "70"
+      },
+      "222": {
+        "signValue": "70"
+      },
+      "223": {
+        "redWaves": "both",
+        "signValue": "70"
+      },
+      "224": {
+        "signValue": "70"
+      },
+      "225": {
+        "signValue": "70"
+      },
+      "226": {
+        "signValue": "70"
+      },
+      "227": {
+        "topSystem": "HDP",
+        "signValue": "70",
+        "secondarySign": "exclamation",
+        "topColor": "cyan"
+      }
+    }
+  },
+  {
+    "id": "v1-message-228",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "228",
+    "codes": [
+      228
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "패들 시프터의 작동 조건이 아닙니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 235,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "이 번호가 보인 순간에 함께 관찰된 경고입니다. 번호와 경고의 직접 연동 여부는 확인되지 않았습니다.",
+    "ringColor": "yellow",
+    "tags": [
+      "패들 시프터",
+      ""
+    ],
+    "visualByCode": {
+      "228": {
+        "topSystem": "HDA",
+        "egoRing": false,
+        "signValue": "70",
+        "secondarySign": "exclamation",
+        "speedColor": "white",
+        "topColor": "orange",
+        "iPedal": true
+      }
+    }
+  },
+  {
+    "id": "v1-message-229",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "229",
+    "codes": [
+      229
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "패들 시프터의 작동 조건이 아닙니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 236,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "이 번호가 보인 순간에 함께 관찰된 경고입니다. 번호와 경고의 직접 연동 여부는 확인되지 않았습니다.",
+    "ringColor": "yellow",
+    "tags": [
+      "패들 시프터",
+      ""
+    ],
+    "visualByCode": {
+      "229": {
+        "topSystem": "HDA",
+        "egoRing": false,
+        "signValue": "70",
+        "secondarySign": "exclamation",
+        "topColor": "orange"
+      }
+    }
+  },
+  {
+    "id": "v1-message-230",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "230",
+    "codes": [
+      230
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "패들 시프터의 작동 조건이 아닙니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 237,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "이 번호가 보인 순간에 함께 관찰된 경고입니다. 번호와 경고의 직접 연동 여부는 확인되지 않았습니다.",
+    "ringColor": "yellow",
+    "tags": [
+      "패들 시프터",
+      ""
+    ],
+    "visualByCode": {
+      "230": {
+        "topSystem": "HDA",
+        "egoRing": false,
+        "signValue": "70",
+        "secondarySign": "right-bend",
+        "topColor": "orange"
+      }
+    }
+  },
+  {
+    "id": "v1-message-231",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "231",
+    "codes": [
+      231
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "패들 시프터의 작동 조건이 아닙니다.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 238,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "이 번호가 보인 순간에 함께 관찰된 경고입니다. 번호와 경고의 직접 연동 여부는 확인되지 않았습니다.",
+    "ringColor": "yellow",
+    "tags": [
+      "패들 시프터",
+      ""
+    ],
+    "visualByCode": {
+      "231": {
+        "topSystem": "HDA",
+        "egoRing": false,
+        "signValue": "70",
+        "secondarySign": "right-bend",
+        "topColor": "green"
+      }
+    }
+  },
+  {
+    "id": "v1-navigation-232–239",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "232–239",
+    "codes": [
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 239,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션",
+      ""
+    ],
+    "visualByCode": {
+      "232": {
+        "topSystem": "HDA",
+        "signValue": "70",
+        "secondarySign": "right-bend",
+        "topColor": "green"
+      },
+      "233": {
+        "topSystem": "HDA",
+        "signValue": "70",
+        "secondarySign": "right-bend",
+        "topColor": "orange"
+      },
+      "234": {
+        "topSystem": "HDA",
+        "turnRight": true,
+        "signValue": "70",
+        "secondarySign": "right-bend"
+      },
+      "235": {
+        "topSystem": "HDA",
+        "cameraRight": true,
+        "turnRight": true,
+        "graphic": {
+          "arrow": "right",
+          "rightFill": true
+        },
+        "signValue": "70",
+        "secondarySign": "exclamation"
+      },
+      "236": {
+        "topSystem": "HDA",
+        "cameraRight": true,
+        "graphic": {
+          "rightFill": true
+        },
+        "signValue": "70",
+        "secondarySign": "exclamation"
+      },
+      "237": {
+        "topSystem": "HDA",
+        "graphic": {
+          "rightFill": true
+        },
+        "signValue": "50",
+        "secondarySign": "exclamation"
+      },
+      "238": {
+        "topSystem": "HDA",
+        "graphic": {
+          "rightFill": true
+        },
+        "signValue": "50",
+        "secondarySign": "exclamation"
+      },
+      "239": {
+        "topSystem": "HDA",
+        "graphic": {
+          "rightFill": true
+        },
+        "signValue": "50",
+        "secondarySign": "camera",
+        "speedColor": "red"
+      }
+    }
+  },
+  {
+    "id": "v1-message-240",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "240",
+    "codes": [
+      240
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "연료가 부족합니다.",
+    "category": "차량 상태",
+    "timeSeconds": 247,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "연료",
+      ""
+    ],
+    "visualByCode": {
+      "240": {
+        "topSystem": "HDA",
+        "egoRing": false,
+        "signValue": "50",
+        "secondarySign": "camera",
+        "speedColor": "red",
+        "topColor": "orange",
+        "iPedal": true
+      }
+    }
+  },
+  {
+    "id": "v1-message-241",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "241",
+    "codes": [
+      241
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "타이어 공기압이 낮습니다.",
+    "category": "차량 상태",
+    "timeSeconds": 248,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "타이어",
+      ""
+    ],
+    "visualByCode": {
+      "241": {
+        "topSystem": "HDA",
+        "signValue": "50",
+        "secondarySign": "camera",
+        "speedColor": "red"
+      }
+    }
+  },
+  {
+    "id": "v1-message-242",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "242",
+    "codes": [
+      242
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "도어 열림이 감지되었습니다.",
+    "category": "차량 상태",
+    "timeSeconds": 249,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "개폐 상태",
+      ""
+    ],
+    "visualByCode": {
+      "242": {
+        "topSystem": "HDA",
+        "signValue": "50",
+        "secondarySign": "camera",
+        "speedColor": "red"
+      }
+    }
+  },
+  {
+    "id": "v1-message-243",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "243",
+    "codes": [
+      243
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "트렁크 열림이 감지되었습니다.",
+    "category": "차량 상태",
+    "timeSeconds": 250,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "개폐 상태",
+      ""
+    ],
+    "visualByCode": {
+      "243": {
+        "topSystem": "HDA",
+        "signValue": "50",
+        "secondarySign": "camera",
+        "speedColor": "orange"
+      }
+    }
+  },
+  {
+    "id": "v1-message-244",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "244",
+    "codes": [
+      244
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "후드 열림이 감지되었습니다.",
+    "category": "차량 상태",
+    "timeSeconds": 251,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "개폐 상태",
+      ""
+    ],
+    "visualByCode": {
+      "244": {
+        "topSystem": "HDA",
+        "turnRight": true,
+        "graphic": {
+          "arrow": "right"
+        },
+        "signValue": "50",
+        "secondarySign": "camera",
+        "speedColor": "white"
+      }
+    }
+  },
+  {
+    "id": "v1-message-245",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "245",
+    "codes": [
+      245
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "시트 벨트가 해제되었습니다.",
+    "category": "차량 상태",
+    "timeSeconds": 252,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "안전벨트",
+      ""
+    ],
+    "visualByCode": {
+      "245": {
+        "topSystem": "HDA",
+        "cameraRight": true,
+        "graphic": {
+          "arrow": "right",
+          "rightFill": true
+        },
+        "signValue": "50",
+        "secondarySign": "camera",
+        "speedColor": "white",
+        "topColor": "green"
+      }
+    }
+  },
+  {
+    "id": "v1-message-246",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "246",
+    "codes": [
+      246
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "주차 브레이크가 작동했습니다.",
+    "category": "차량 상태",
+    "timeSeconds": 253,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "주차 브레이크",
+      ""
+    ],
+    "visualByCode": {
+      "246": {
+        "topSystem": "HDA",
+        "cameraRight": true,
+        "graphic": {
+          "rightFill": true
+        },
+        "signValue": "50",
+        "secondarySign": "camera",
+        "speedColor": "white",
+        "topColor": "orange"
+      }
+    }
+  },
+  {
+    "id": "v1-message-247",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "247",
+    "codes": [
+      247
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "배터리가 부족합니다.",
+    "category": "차량 상태",
+    "timeSeconds": 254,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "배터리",
+      ""
+    ],
+    "visualByCode": {
+      "247": {
+        "topSystem": "HDA",
+        "graphic": {
+          "rightFill": true
+        },
+        "signValue": "50",
+        "secondarySign": "camera",
+        "speedColor": "white"
+      }
+    }
+  },
+  {
+    "id": "v1-message-248",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "248",
+    "codes": [
+      248
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "충돌 위험 해소 후 고속도로 부분 자율주행 시스템을 종료합니다.",
+    "category": "HDP",
+    "timeSeconds": 255,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "시스템 종료",
+      ""
+    ],
+    "visualByCode": {
+      "248": {
+        "topSystem": "HDA",
+        "graphic": {
+          "rightFill": true
+        },
+        "egoRing": false,
+        "signValue": "50",
+        "secondarySign": "camera",
+        "speedColor": "white",
+        "topColor": "orange"
+      }
+    }
+  },
+  {
+    "id": "v1-message-249",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "249",
+    "codes": [
+      249
+    ],
+    "kind": "message",
+    "surface": "center",
+    "text": "테일게이트 열림이 감지되었습니다.",
+    "category": "차량 상태",
+    "timeSeconds": 256,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "tags": [
+      "개폐 상태",
+      ""
+    ],
+    "visualByCode": {
+      "249": {
+        "topSystem": "HDA",
+        "graphic": {
+          "rightFill": true
+        },
+        "egoRing": false,
+        "signValue": "50",
+        "secondarySign": "camera",
+        "speedColor": "white",
+        "topColor": "orange"
+      }
+    }
+  },
+  {
+    "id": "v1-navigation-250–254",
+    "bank": "v1",
+    "source": "IMG_4952.mp4",
+    "code": "250–254",
+    "codes": [
+      250,
+      251,
+      252,
+      253,
+      254
+    ],
+    "kind": "navigation",
+    "surface": "center",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 257,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "tags": [
+      "내비게이션",
+      ""
+    ],
+    "visualByCode": {
+      "250": {
+        "topSystem": "HDP",
+        "redWaves": "right",
+        "graphic": {
+          "rightFill": true
+        },
+        "signValue": "50",
+        "secondarySign": "camera",
+        "speedColor": "white",
+        "topColor": "cyan",
+        "iPedal": true
+      },
+      "251": {
+        "redWaves": "right",
+        "signValue": "50",
+        "secondarySign": "camera",
+        "speedColor": "white"
+      },
+      "252": {
+        "signValue": "50",
+        "secondarySign": "camera",
+        "speedColor": "white"
+      },
+      "253": {
+        "secondarySign": "camera",
+        "speedColor": "white"
+      },
+      "254": {
+        "topSystem": "HDP",
+        "secondarySign": "camera",
+        "speedColor": "white",
+        "topColor": "cyan"
+      }
+    }
+  },
+  {
+    "id": "v2-navigation-0",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "0",
+    "codes": [
+      0
+    ],
+    "kind": "navigation",
+    "surface": "right",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 31,
+    "icon": "range-dial",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "basic"
+    ]
+  },
+  {
+    "id": "v2-message-1",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "1",
+    "codes": [
+      1
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "핸들을 잡지 않아 자동 주행속도가 제한됩니다.",
+    "category": "운전자·조작",
+    "timeSeconds": 0,
+    "icon": "triangle",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "yellow",
+    "tags": [
+      "",
+      "general"
+    ]
+  },
+  {
+    "id": "v2-message-2",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "2",
+    "codes": [
+      2
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "전방 상황에 주의하십시오.",
+    "category": "일반 안내·경고",
+    "timeSeconds": 1,
+    "icon": "front-warning",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "yellow",
+    "tags": [
+      "",
+      "general"
+    ]
+  },
+  {
+    "id": "v2-message-3",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "3",
+    "codes": [
+      3
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "스마트 크루즈 컨트롤 시스템이 해제되었습니다.",
+    "category": "SCC · 스마트 크루즈",
+    "timeSeconds": 2,
+    "icon": "scc-off",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "yellow",
+    "tags": [
+      "",
+      "SCC"
+    ]
+  },
+  {
+    "id": "v2-message-4",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "4",
+    "codes": [
+      4
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "스마트 크루즈 컨트롤 시스템의 작동 조건이 아닙니다.",
+    "category": "SCC · 스마트 크루즈",
+    "timeSeconds": 3,
+    "icon": "scc-off",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "yellow",
+    "tags": [
+      "",
+      "SCC"
+    ]
+  },
+  {
+    "id": "v2-message-5",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "5",
+    "codes": [
+      5
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "전방 차량 출발 시 스위치 또는 페달을 조작하십시오.",
+    "category": "운전자·조작",
+    "timeSeconds": 4,
+    "icon": "switch-pedal",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "SCC"
+    ]
+  },
+  {
+    "id": "v2-message-6",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "6",
+    "codes": [
+      6
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "트레일러가 연결되어 운전자 보조 시스템의 작동이 제한됩니다.",
+    "category": "주행 보조 공통",
+    "timeSeconds": 5,
+    "icon": "triangle",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "yellow",
+    "tags": [
+      "",
+      "general"
+    ]
+  },
+  {
+    "id": "v2-message-7",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "7",
+    "codes": [
+      7
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "운전자의 얼굴이 정상적으로 감지되지 않아 운전자 보조 시스템의 작동이 제한됩니다.",
+    "category": "주행 보조 공통",
+    "timeSeconds": 6,
+    "icon": "text-only",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "yellow",
+    "tags": [
+      "",
+      "general"
+    ]
+  },
+  {
+    "id": "v2-message-8",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "8",
+    "codes": [
+      8
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "스마트 크루즈 컨트롤의 작동조건이 아닙니다. 비상 정차 작동 후에는 시동을 다시 거십시오.",
+    "category": "SCC · 스마트 크루즈",
+    "timeSeconds": 7,
+    "icon": "text-only",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "yellow",
+    "tags": [
+      "",
+      "SCC"
+    ]
+  },
+  {
+    "id": "v2-message-9",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "9",
+    "codes": [
+      9
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "차로 유지 보조 시스템의 작동 조건이 아닙니다.",
+    "category": "LFA · 차로 유지",
+    "timeSeconds": 8,
+    "icon": "lfa-off",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "yellow",
+    "tags": [
+      "",
+      "LFA"
+    ]
+  },
+  {
+    "id": "v2-message-10",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "10",
+    "codes": [
+      10
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "차로 유지 보조 시스템의 작동 조건이 아닙니다. 비상 정차 후에는 시동을 다시 거십시오.",
+    "category": "LFA · 차로 유지",
+    "timeSeconds": 9,
+    "icon": "text-only",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "yellow",
+    "tags": [
+      "",
+      "LFA"
+    ]
+  },
+  {
+    "id": "v2-message-11",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "11",
+    "codes": [
+      11
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "전방 차량이 출발하였습니다.",
+    "category": "운전자·조작",
+    "timeSeconds": 10,
+    "icon": "front-start",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "general"
+    ]
+  },
+  {
+    "id": "v2-message-12",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "12",
+    "codes": [
+      12
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "정차 후 다시 시도하십시오.",
+    "category": "운전자·조작",
+    "timeSeconds": 11,
+    "icon": "text-only",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "general"
+    ]
+  },
+  {
+    "id": "v2-message-13",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "13",
+    "codes": [
+      13
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "주행 편의 시스템을 끄고 다시 시도하십시오.",
+    "category": "주행 보조 공통",
+    "timeSeconds": 12,
+    "icon": "text-only",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "general"
+    ]
+  },
+  {
+    "id": "v2-message-14",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "14",
+    "codes": [
+      14
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "주행 편의 시스템을 끄고 다시 시도하십시오.",
+    "category": "주행 보조 공통",
+    "timeSeconds": 13,
+    "icon": "text-only",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "general"
+    ]
+  },
+  {
+    "id": "v2-message-15",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "15",
+    "codes": [
+      15
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "주행 편의 시스템을 끄고 다시 시도하십시오.",
+    "category": "주행 보조 공통",
+    "timeSeconds": 14,
+    "icon": "text-only",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "general"
+    ]
+  },
+  {
+    "id": "v2-message-16",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "16",
+    "codes": [
+      16
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "주행 편의 시스템을 끄고 다시 시도하십시오.",
+    "category": "주행 보조 공통",
+    "timeSeconds": 15,
+    "icon": "text-only",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "general"
+    ]
+  },
+  {
+    "id": "v2-navigation-17",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "17",
+    "codes": [
+      17
+    ],
+    "kind": "navigation",
+    "surface": "right",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 16,
+    "icon": "range-dial",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "basic"
+    ]
+  },
+  {
+    "id": "v2-navigation-18",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "18",
+    "codes": [
+      18
+    ],
+    "kind": "navigation",
+    "surface": "right",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 17,
+    "icon": "range-dial",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "basic"
+    ]
+  },
+  {
+    "id": "v2-message-19",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "19",
+    "codes": [
+      19
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "언제든 직접 운전할 수 있도록 항상 준비하십시오.",
+    "category": "HDP",
+    "timeSeconds": 18,
+    "icon": "hdp",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "HDP"
+    ]
+  },
+  {
+    "id": "v2-message-20",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "20",
+    "codes": [
+      20
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "고속도로 부분 자율주행 지속 시 내비게이션 안내 경로를 벗어납니다.",
+    "category": "HDP",
+    "timeSeconds": 19,
+    "icon": "hdp",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "HDP"
+    ]
+  },
+  {
+    "id": "v2-message-21",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "21",
+    "codes": [
+      21
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "고속도로 부분 자율주행 시스템이 해제되었습니다.",
+    "category": "HDP",
+    "timeSeconds": 20,
+    "icon": "hdp-off",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "HDP"
+    ]
+  },
+  {
+    "id": "v2-message-22",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "22",
+    "codes": [
+      22
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "고속도로 부분 자율주행 시스템이 적용되지 않았습니다.",
+    "category": "HDP",
+    "timeSeconds": 21,
+    "icon": "hdp-off",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "HDP"
+    ]
+  },
+  {
+    "id": "v2-message-23",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "23",
+    "codes": [
+      23
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "고속도로 부분 자율주행 시스템의 작동 조건이 아닙니다.",
+    "category": "HDP",
+    "timeSeconds": 22,
+    "icon": "hdp-off",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "yellow",
+    "tags": [
+      "",
+      "HDP"
+    ]
+  },
+  {
+    "id": "v2-message-24",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "24",
+    "codes": [
+      24
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "고속도로 주행 보조 시스템으로 전환합니다.",
+    "category": "HDP",
+    "timeSeconds": 23,
+    "icon": "hda",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "HDA"
+    ]
+  },
+  {
+    "id": "v2-navigation-25",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "25",
+    "codes": [
+      25
+    ],
+    "kind": "navigation",
+    "surface": "right",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 24,
+    "icon": "range-dial",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "basic"
+    ]
+  },
+  {
+    "id": "v2-message-26",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "26",
+    "codes": [
+      26
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "전방을 주시하고 안전 운전이 가능한 상태를 유지하십시오.",
+    "category": "HDP",
+    "timeSeconds": 25,
+    "icon": "driver-seat",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "general"
+    ]
+  },
+  {
+    "id": "v2-message-27",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "27",
+    "codes": [
+      27
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "전방을 주시하고 안전 운전이 가능한 상태를 유지하십시오.",
+    "category": "HDP",
+    "timeSeconds": 26,
+    "icon": "driver-seat",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "general"
+    ]
+  },
+  {
+    "id": "v2-message-28",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "28",
+    "codes": [
+      28
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "전방을 주시하고 안전 운전이 가능한 상태를 유지하십시오.",
+    "category": "HDP",
+    "timeSeconds": 27,
+    "icon": "driver-seat",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "general"
+    ]
+  },
+  {
+    "id": "v2-message-29",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "29",
+    "codes": [
+      29
+    ],
+    "kind": "message",
+    "surface": "right",
+    "text": "전방을 주시하고 안전 운전이 가능한 상태를 유지하십시오.",
+    "category": "HDP",
+    "timeSeconds": 28,
+    "icon": "driver-seat",
+    "confidence": "confirmed",
+    "notes": "",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "general"
+    ]
+  },
+  {
+    "id": "v2-navigation-30",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "30",
+    "codes": [
+      30
+    ],
+    "kind": "navigation",
+    "surface": "right",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 29,
+    "icon": "range-dial",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "basic"
+    ]
+  },
+  {
+    "id": "v2-navigation-31",
+    "bank": "v2",
+    "source": "IMG_4953.mp4",
+    "code": "31",
+    "codes": [
+      31
+    ],
+    "kind": "navigation",
+    "surface": "right",
+    "text": "별도 알림 없음 · 내비게이션 및 기본 계기 표시",
+    "category": "기본 화면",
+    "timeSeconds": 30,
+    "icon": "range-dial",
+    "confidence": "confirmed",
+    "notes": "해당 프레임에서 별도 텍스트 알림이 보이지 않습니다. 내비게이션 거리·목적지는 주행에 따라 바뀝니다.",
+    "ringColor": "#d6f0ff",
+    "tags": [
+      "",
+      "basic"
+    ]
+  },
+  {
+    "id": "lane-45-0",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-0",
+    "codes": [],
+    "menu": 45,
+    "value": 0,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "왼쪽 차선: 회색 실선. 오른쪽 주황색 실선은 유지됩니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 10.062,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "solid"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-45-1",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-1",
+    "codes": [],
+    "menu": 45,
+    "value": 1,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 차선이 사라지거나 매우 옅어집니다. 고정 소등인지 전환·점멸의 한 위상인지는 확정할 수 없습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 10.188,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-45-2",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-2",
+    "codes": [],
+    "menu": 45,
+    "value": 2,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "왼쪽 차선: 흰색 실선. 오른쪽 주황색 실선은 유지됩니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 10.438,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "white",
+        "style": "solid"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-45-3",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-3",
+    "codes": [],
+    "menu": 45,
+    "value": 3,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 차선이 사라지거나 매우 옅어집니다. 고정 소등인지 전환·점멸의 한 위상인지는 확정할 수 없습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 10.688,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-45-4",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-4",
+    "codes": [],
+    "menu": 45,
+    "value": 4,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "왼쪽 차선: 주황색 실선. 오른쪽 주황색 실선은 유지됩니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 10.938,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-45-5",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-5",
+    "codes": [],
+    "menu": 45,
+    "value": 5,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 차선이 사라지거나 매우 옅어집니다. 고정 소등인지 전환·점멸의 한 위상인지는 확정할 수 없습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 11.188,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-45-6",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-6",
+    "codes": [],
+    "menu": 45,
+    "value": 6,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "왼쪽 차선: 초록색 실선. 오른쪽 주황색 실선은 유지됩니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 11.438,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "green",
+        "style": "solid"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-45-7",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-7",
+    "codes": [],
+    "menu": 45,
+    "value": 7,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 차선이 사라지거나 매우 옅어집니다. 고정 소등인지 전환·점멸의 한 위상인지는 확정할 수 없습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 11.688,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-45-8",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-8",
+    "codes": [],
+    "menu": 45,
+    "value": 8,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "왼쪽 차선: 흰색 점선. 오른쪽 주황색 실선은 유지됩니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 11.938,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "white",
+        "style": "dashed"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-45-9",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-9",
+    "codes": [],
+    "menu": 45,
+    "value": 9,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 차선이 사라지거나 매우 옅어집니다. 고정 소등인지 전환·점멸의 한 위상인지는 확정할 수 없습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 12.188,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-45-10",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-10",
+    "codes": [],
+    "menu": 45,
+    "value": 10,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "왼쪽 차선: 초록색 점선. 오른쪽 주황색 실선은 유지됩니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 12.438,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "green",
+        "style": "dashed"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-45-11",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-11",
+    "codes": [],
+    "menu": 45,
+    "value": 11,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 차선이 사라지거나 매우 옅어집니다. 고정 소등인지 전환·점멸의 한 위상인지는 확정할 수 없습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 12.688,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-45-12",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-12",
+    "codes": [],
+    "menu": 45,
+    "value": 12,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 차선이 표시되지 않습니다. 오른쪽 주황색 실선은 유지됩니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 12.938,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-45-13",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-13",
+    "codes": [],
+    "menu": 45,
+    "value": 13,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 차선이 표시되지 않습니다. 오른쪽 주황색 실선은 유지됩니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 13.188,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-45-14",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-14",
+    "codes": [],
+    "menu": 45,
+    "value": 14,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 차선이 표시되지 않습니다. 오른쪽 주황색 실선은 유지됩니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 13.438,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-45-15",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-15",
+    "codes": [],
+    "menu": 45,
+    "value": 15,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 차선이 표시되지 않습니다. 오른쪽 주황색 실선은 유지됩니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 13.688,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-45-16",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "45-16",
+    "codes": [],
+    "menu": 45,
+    "value": 16,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 차선이 표시되지 않습니다. 오른쪽 주황색 실선은 유지됩니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 13.812,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "45",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-46-None",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "46-미확인",
+    "codes": [],
+    "menu": 46,
+    "value": null,
+    "kind": "unverified",
+    "surface": "road",
+    "text": "휴대폰 메뉴 46 확인. 관찰 화면은 왼쪽 차선 없음·오른쪽 주황색 실선이며, 값에 따른 별도 변화는 판독되지 않았습니다.",
+    "category": "차로 · 미확인",
+    "timeSeconds": 21.5,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "메뉴 번호 또는 설정별 효과를 확정할 수 없어 관찰된 상태로 남겼습니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "46",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-47-0",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-0",
+    "codes": [],
+    "menu": 47,
+    "value": 0,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 차선: 회색 실선. 왼쪽 차선은 표시되지 않습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 23.867,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "gray",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-47-1",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-1",
+    "codes": [],
+    "menu": 47,
+    "value": 1,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 차선이 얇고 옅은 회색·흰색 실선으로 보입니다. 전환 지연 또는 점멸 위상의 영향은 분리되지 않았습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 24.0,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "gray",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-47-2",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-2",
+    "codes": [],
+    "menu": 47,
+    "value": 2,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 차선: 흰색 실선. 왼쪽 차선은 표시되지 않습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 24.067,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "white",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-47-3",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-3",
+    "codes": [],
+    "menu": 47,
+    "value": 3,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 차선이 사라지거나 매우 옅어집니다. 전환·점멸 위상과 고정 소등을 구분할 수 없습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 24.167,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "gray",
+        "style": "none"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-47-4",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-4",
+    "codes": [],
+    "menu": 47,
+    "value": 4,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 차선: 주황색 실선. 왼쪽 차선은 표시되지 않습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 24.267,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-47-5",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-5",
+    "codes": [],
+    "menu": 47,
+    "value": 5,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 차선이 사라지거나 매우 옅어집니다. 전환·점멸 위상과 고정 소등을 구분할 수 없습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 24.333,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "gray",
+        "style": "none"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-47-6",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-6",
+    "codes": [],
+    "menu": 47,
+    "value": 6,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 차선: 초록색 실선. 왼쪽 차선은 표시되지 않습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 24.467,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "green",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-47-7",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-7",
+    "codes": [],
+    "menu": 47,
+    "value": 7,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "값 7의 일부 프레임에는 직전 초록색 실선이 남아 있습니다. 고유한 지속 표시인지 전환 잔상인지는 확정할 수 없습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 24.567,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "green",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-47-8",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-8",
+    "codes": [],
+    "menu": 47,
+    "value": 8,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 차선: 흰색 점선. 왼쪽 차선은 표시되지 않습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 24.667,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "white",
+        "style": "dashed"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-47-9",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-9",
+    "codes": [],
+    "menu": 47,
+    "value": 9,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 차선이 사라지거나 매우 옅어집니다. 전환·점멸 위상과 고정 소등을 구분할 수 없습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 24.767,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "gray",
+        "style": "none"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-47-10",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-10",
+    "codes": [],
+    "menu": 47,
+    "value": 10,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 차선: 초록색 점선. 왼쪽 차선은 표시되지 않습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 24.867,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "green",
+        "style": "dashed"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-47-11",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-11",
+    "codes": [],
+    "menu": 47,
+    "value": 11,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 차선이 사라지거나 매우 옅어집니다. 전환·점멸 위상과 고정 소등을 구분할 수 없습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 24.967,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "gray",
+        "style": "none"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-47-12",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-12",
+    "codes": [],
+    "menu": 47,
+    "value": 12,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 차선이 표시되지 않습니다. 왼쪽 차선도 표시되지 않습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 23.433,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "gray",
+        "style": "none"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-47-13",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-13",
+    "codes": [],
+    "menu": 47,
+    "value": 13,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 차선이 표시되지 않습니다. 왼쪽 차선도 표시되지 않습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 23.533,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "gray",
+        "style": "none"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-47-14",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-14",
+    "codes": [],
+    "menu": 47,
+    "value": 14,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 차선이 표시되지 않습니다. 왼쪽 차선도 표시되지 않습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 23.633,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "gray",
+        "style": "none"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-47-15",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-15",
+    "codes": [],
+    "menu": 47,
+    "value": 15,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 차선이 표시되지 않습니다. 왼쪽 차선도 표시되지 않습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 23.733,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "gray",
+        "style": "none"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-47-16",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "47-16",
+    "codes": [],
+    "menu": 47,
+    "value": 16,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 차선이 표시되지 않습니다. 왼쪽 차선도 표시되지 않습니다.",
+    "category": "차로 · 선 색상·모양",
+    "timeSeconds": 23.8,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "gray",
+        "style": "none"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "47",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-0",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-0",
+    "codes": [],
+    "menu": 48,
+    "value": 0,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선이 자차 바로 아래의 중앙 부근에 놓인 시작 위치입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 25.367,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.0
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-1",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-1",
+    "codes": [],
+    "menu": 48,
+    "value": 1,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 1입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 25.467,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.058824
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-2",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-2",
+    "codes": [],
+    "menu": 48,
+    "value": 2,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 2입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 25.567,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.117647
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-3",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-3",
+    "codes": [],
+    "menu": 48,
+    "value": 3,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 3입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 25.667,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.176471
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-4",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-4",
+    "codes": [],
+    "menu": 48,
+    "value": 4,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 4입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 25.767,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.235294
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-5",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-5",
+    "codes": [],
+    "menu": 48,
+    "value": 5,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 5입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 25.867,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.294118
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-6",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-6",
+    "codes": [],
+    "menu": 48,
+    "value": 6,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 6입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 25.967,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.352941
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-7",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-7",
+    "codes": [],
+    "menu": 48,
+    "value": 7,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 7입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 26.067,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.411765
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-8",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-8",
+    "codes": [],
+    "menu": 48,
+    "value": 8,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 8입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 26.167,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.470588
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-9",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-9",
+    "codes": [],
+    "menu": 48,
+    "value": 9,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 9입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 26.267,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.529412
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-10",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-10",
+    "codes": [],
+    "menu": 48,
+    "value": 10,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 10입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 26.367,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.588235
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-11",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-11",
+    "codes": [],
+    "menu": 48,
+    "value": 11,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 11입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 26.467,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.647059
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-12",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-12",
+    "codes": [],
+    "menu": 48,
+    "value": 12,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 12입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 26.567,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.705882
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-13",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-13",
+    "codes": [],
+    "menu": 48,
+    "value": 13,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 13입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 26.667,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.764706
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-14",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-14",
+    "codes": [],
+    "menu": 48,
+    "value": 14,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 14입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 26.767,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.823529
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-15",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-15",
+    "codes": [],
+    "menu": 48,
+    "value": 15,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 15입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 26.867,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.882353
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-16",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-16",
+    "codes": [],
+    "menu": 48,
+    "value": 16,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선의 위치가 바깥쪽으로 이동하는 중간 상태입니다. 확인된 중앙 값은 16입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 26.967,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 0.941176
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-48-17",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "48-17",
+    "codes": [],
+    "menu": 48,
+    "value": 17,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 주황색 실선이 자차 오른쪽 바깥으로 이동한 마지막 확인 위치입니다.",
+    "category": "차로 · 선 위치",
+    "timeSeconds": 27.067,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "차선의 위치 변화를 단계별로 재현했습니다. 이동량은 시연용 비율이며 실제 거리나 정밀 좌표가 아닙니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none",
+      "rightOffsetNormalized": 1.0
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "48",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-52-0",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "52-0",
+    "codes": [],
+    "menu": 52,
+    "value": 0,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 인접 차로의 초록색 영역 강조가 없습니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 32.8,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "메뉴 번호는 52로 추정되며 흐린 영상 때문에 확정하지 못했습니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "52",
+      "번호 추정"
+    ],
+    "menuConfidence": "probable",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-52-1",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "52-1",
+    "codes": [],
+    "menu": 52,
+    "value": 1,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "왼쪽 인접 차로가 넓은 초록색 영역으로 강조된 프레임입니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 32.9,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "메뉴 번호는 52로 추정되며 흐린 영상 때문에 확정하지 못했습니다. 빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다. 같은 값에서 강조가 켜지거나 꺼진 모습이 있어 점멸·고정 표시를 확정하지 않습니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": "green",
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "52",
+      "번호 추정"
+    ],
+    "menuConfidence": "probable",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-52-2",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "52-2",
+    "codes": [],
+    "menu": 52,
+    "value": 2,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "왼쪽 초록색 영역이 남아 있다가 사라지는 전환 프레임입니다. 같은 값 2 안에서도 채움 유무가 다릅니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 32.967,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "메뉴 번호는 52로 추정되며 흐린 영상 때문에 확정하지 못했습니다. 빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다. 같은 값에서 강조가 켜지거나 꺼진 모습이 있어 점멸·고정 표시를 확정하지 않습니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": "green",
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "52",
+      "번호 추정"
+    ],
+    "menuConfidence": "probable",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-52-3",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "52-3",
+    "codes": [],
+    "menu": 52,
+    "value": 3,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 인접 차로의 초록색 영역 강조가 없습니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 33.067,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "메뉴 번호는 52로 추정되며 흐린 영상 때문에 확정하지 못했습니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "52",
+      "번호 추정"
+    ],
+    "menuConfidence": "probable",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-52-4",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "52-4",
+    "codes": [],
+    "menu": 52,
+    "value": 4,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 인접 차로의 초록색 영역 강조가 없습니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 33.167,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "메뉴 번호는 52로 추정되며 흐린 영상 때문에 확정하지 못했습니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "52",
+      "번호 추정"
+    ],
+    "menuConfidence": "probable",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-52-5",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "52-5",
+    "codes": [],
+    "menu": 52,
+    "value": 5,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 인접 차로의 초록색 영역 강조가 없습니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 33.267,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "메뉴 번호는 52로 추정되며 흐린 영상 때문에 확정하지 못했습니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "52",
+      "번호 추정"
+    ],
+    "menuConfidence": "probable",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-52-6",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "52-6",
+    "codes": [],
+    "menu": 52,
+    "value": 6,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 인접 차로의 초록색 영역 강조가 없습니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 33.367,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "메뉴 번호는 52로 추정되며 흐린 영상 때문에 확정하지 못했습니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "52",
+      "번호 추정"
+    ],
+    "menuConfidence": "probable",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-52-7",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "52-7",
+    "codes": [],
+    "menu": 52,
+    "value": 7,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 왼쪽 인접 차로의 초록색 영역 강조가 없습니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 33.467,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "메뉴 번호는 52로 추정되며 흐린 영상 때문에 확정하지 못했습니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "52",
+      "번호 추정"
+    ],
+    "menuConfidence": "probable",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-53-0",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "53-0",
+    "codes": [],
+    "menu": 53,
+    "value": 0,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 인접 차로의 초록색 영역 강조가 없습니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 37.75,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "53",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-53-1",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "53-1",
+    "codes": [],
+    "menu": 53,
+    "value": 1,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 인접 차로가 넓은 초록색 영역으로 강조된 프레임입니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 37.85,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다. 같은 값에서 강조가 켜지거나 꺼진 모습이 있어 점멸·고정 표시를 확정하지 않습니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": "green",
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "53",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-53-2",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "53-2",
+    "codes": [],
+    "menu": 53,
+    "value": 2,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "오른쪽 초록색 영역이 남아 있다가 옅어지는 프레임입니다. 같은 값 2의 다른 프레임에서는 채움이 사라집니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 37.95,
+    "icon": "none",
+    "confidence": "uncertain",
+    "notes": "빠른 전환 중 관찰된 모습입니다. 고정 표시·점멸 모드를 단정하지 않고 해당 순간만 재현합니다. 같은 값에서 강조가 켜지거나 꺼진 모습이 있어 점멸·고정 표시를 확정하지 않습니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": "green",
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "53",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": true
+  },
+  {
+    "id": "lane-53-3",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "53-3",
+    "codes": [],
+    "menu": 53,
+    "value": 3,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 인접 차로의 초록색 영역 강조가 없습니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 38.05,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "53",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-53-4",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "53-4",
+    "codes": [],
+    "menu": 53,
+    "value": 4,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 인접 차로의 초록색 영역 강조가 없습니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 38.15,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "53",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-53-5",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "53-5",
+    "codes": [],
+    "menu": 53,
+    "value": 5,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 인접 차로의 초록색 영역 강조가 없습니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 38.25,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "53",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-53-6",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "53-6",
+    "codes": [],
+    "menu": 53,
+    "value": 6,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 인접 차로의 초록색 영역 강조가 없습니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 38.35,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "53",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-53-7",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "53-7",
+    "codes": [],
+    "menu": 53,
+    "value": 7,
+    "kind": "graphic",
+    "surface": "road",
+    "text": "관찰 프레임에서 오른쪽 인접 차로의 초록색 영역 강조가 없습니다.",
+    "category": "차로 · 인접 차로 강조",
+    "timeSeconds": 38.45,
+    "icon": "none",
+    "confidence": "confirmed",
+    "notes": "",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "53",
+      ""
+    ],
+    "menuConfidence": "confirmed",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-unassigned-1",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "미확인-01",
+    "codes": [],
+    "menu": null,
+    "value": null,
+    "kind": "unverified",
+    "surface": "road",
+    "text": "휴대폰 메뉴 번호가 손가락에 가려져 확인되지 않습니다. 중앙 값이 바뀌지만 오른쪽 주황색 실선 등 기본 도형의 추가 변화는 판독되지 않습니다.",
+    "category": "차로 · 미확인",
+    "timeSeconds": 27.5,
+    "icon": "none",
+    "confidence": "unassigned",
+    "notes": "메뉴 번호 또는 설정별 효과를 확정할 수 없어 관찰된 상태로 남겼습니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "",
+      ""
+    ],
+    "menuConfidence": "unverified",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-unassigned-2",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "미확인-02",
+    "codes": [],
+    "menu": null,
+    "value": null,
+    "kind": "unverified",
+    "surface": "road",
+    "text": "휴대폰 메뉴 번호가 가려져 확인되지 않습니다. 중앙 값 0이 보이는 구간이며 별도 도형 변화는 확인되지 않습니다.",
+    "category": "차로 · 미확인",
+    "timeSeconds": 28.3,
+    "icon": "none",
+    "confidence": "unassigned",
+    "notes": "메뉴 번호 또는 설정별 효과를 확정할 수 없어 관찰된 상태로 남겼습니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "",
+      ""
+    ],
+    "menuConfidence": "unverified",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-unassigned-3",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "미확인-03",
+    "codes": [],
+    "menu": null,
+    "value": null,
+    "kind": "unverified",
+    "surface": "road",
+    "text": "휴대폰 메뉴 번호가 흐려 확정할 수 없습니다. 중앙 값 2~22가 증가하지만 별도 도형 변화는 확인되지 않습니다.",
+    "category": "차로 · 미확인",
+    "timeSeconds": 30.5,
+    "icon": "none",
+    "confidence": "unassigned",
+    "notes": "메뉴 번호 또는 설정별 효과를 확정할 수 없어 관찰된 상태로 남겼습니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "",
+      ""
+    ],
+    "menuConfidence": "unverified",
+    "phaseUncertain": false
+  },
+  {
+    "id": "lane-unassigned-4",
+    "bank": "lanes",
+    "source": "IMG_4955.mp4",
+    "code": "미확인-04",
+    "codes": [],
+    "menu": null,
+    "value": null,
+    "kind": "unverified",
+    "surface": "road",
+    "text": "휴대폰 메뉴 번호를 읽을 수 없는 후반 구간입니다. 확인된 화면은 오른쪽 주황색 실선, 앞차 방향의 초록색 선, 회색 앞차와 은색 자차입니다. 새로운 안내 문구나 확실한 추가 도형 변화는 관찰되지 않았습니다.",
+    "category": "차로 · 미확인",
+    "timeSeconds": 60,
+    "icon": "none",
+    "confidence": "unassigned",
+    "notes": "메뉴 번호 또는 설정별 효과를 확정할 수 없어 관찰된 상태로 남겼습니다.",
+    "graphic": {
+      "left": {
+        "color": "gray",
+        "style": "none"
+      },
+      "right": {
+        "color": "orange",
+        "style": "solid"
+      },
+      "egoOffset": 0,
+      "leftFill": false,
+      "rightFill": false,
+      "pathColor": "green",
+      "arrow": "none"
+    },
+    "tags": [
+      "차선",
+      "차로",
+      "",
+      ""
+    ],
+    "menuConfidence": "unverified",
+    "phaseUncertain": false
+  }
+]
