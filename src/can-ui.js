@@ -67,7 +67,7 @@
       const row=document.createElement('div');row.className='change-item';const label=document.createElement('div'),title=document.createElement('strong'),key=document.createElement('small'),value=document.createElement('span'),before=document.createElement('small');
       title.textContent=names[s.name]||s.name;key.textContent=s.name+(mapped?' · 참고 시각화':' · 값만 확인');label.append(title,key);before.textContent=old.raw+' → ';value.append(before,document.createTextNode(v.raw));row.append(label,value);$('can-changes').appendChild(row);
     });
-    if(!changes.length){const p=document.createElement('p');p.className='muted';p.textContent=Object.keys(state).length?'직전 같은 메시지와 달라진 값이 없습니다.':'신호를 적용하거나 예제 프레임을 넘겨 보세요.';$('can-changes').appendChild(p);}
+    if(!changes.length){const p=document.createElement('p');p.className='muted';p.textContent=!state[m.address]?'신호를 적용하거나 예제 프레임을 넘겨 보세요.':!previous[m.address]?'첫 수신 프레임입니다. 다음 같은 메시지부터 값을 비교합니다.':'직전 같은 메시지와 달라진 값이 없습니다.';$('can-changes').appendChild(p);}
     $('can-hex').value=can.hex(payload());showSignal();
   }
   function chooseMessage(preferred){
@@ -88,6 +88,7 @@
   }
   function selectFrame(index){
     if(!filteredFrames.length)return;
+    $('can-status').classList.remove('error');
     position=Math.max(0,Math.min(index,filteredFrames.length-1));payloads={};state={};previous={};
     for(let i=0;i<=position;i++){
       const f=filteredFrames[i],m=schema.messages.find(m=>m.address===f.address);
@@ -104,7 +105,7 @@
     $('can-status').textContent+=' · 지원 외 메시지 '+parsed.skipped+'개 제외';
   }
   schema.messages.forEach(m=>option($('can-message'),m.address,'0x'+m.address.toString(16).toUpperCase()+' · '+m.name));
-  document.querySelectorAll('.mode-nav button').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.mode)));
+  document.querySelectorAll('.mode-nav button').forEach(b=>b.addEventListener('click',()=>{setMode(b.dataset.mode);if(mode==='log'&&filteredFrames.length)selectFrame(position);}));
   $('can-message').addEventListener('change',()=>chooseMessage());$('can-signal').addEventListener('change',showSignal);
   $('can-mapped').addEventListener('change',()=>chooseMessage($('can-signal').value));
   document.querySelectorAll('.quick-signals button').forEach(b=>b.addEventListener('click',()=>{$('can-message').value=353;chooseMessage(b.dataset.signal);}));

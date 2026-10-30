@@ -40,6 +40,7 @@ modes[1].fire('click');assert.equal(preview().center.codes[0],241);
 $('can-message').value=490;$('can-message').fire('change');assert.ok($('can-signal').options.length>0);assert.equal($('can-mapped').disabled,true);
 $('can-demo').fire('click');assert.equal($('cluster-app').dataset.mode,'log');assert.equal($('can-frame-count').textContent,'1 / 4');assert.equal($('signal-controls').hidden,true);
 $('can-next').fire('click');assert.equal($('can-frame-count').textContent,'2 / 4');assert.equal(preview().hda,5);assert.equal($('change-count').textContent,'6개');
+modes[1].fire('click');$('can-value').value='6';$('can-apply').fire('click');assert.equal(preview().graphic.left.style,'solid');modes[2].fire('click');assert.equal(preview().graphic.left.style,'dashed');
 $('can-play').fire('click');assert.equal(timers.size,1);modes[0].fire('click');assert.equal(timers.size,0);
 modes[2].fire('click');$('can-play').fire('click');for(const f of [...timers.values()])f();for(const f of [...timers.values()])f();assert.equal($('can-frame-count').textContent,'4 / 4');assert.equal(timers.size,0);
 $('can-clear').fire('click');assert.equal($('can-frame-count').textContent,'0 / 0');assert.equal($('can-play').disabled,true);assert.equal(preview(),null);
