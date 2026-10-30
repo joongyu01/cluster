@@ -8,7 +8,7 @@
   let selected=(data.find(m=>m.kind==='message'&&m.bank==='v1')||data[0]).id;
   let bank='all',query='',category='all',includeEmpty=true,timer=null,toastTimer=null;
   let canPreview=null;
-  let currentNumber=null,zoom=matchMedia('(max-width:780px)').matches,zoomTouched=false,motion=false;
+  let currentNumber=null,zoom=false,motion=false;
   const current=()=>data.find(m=>m.id===selected)||null;
   const time=t=>Number.isFinite(t)?String(Math.floor(t/60)).padStart(2,'0')+':'+String(Math.floor(t%60)).padStart(2,'0'):'시각 미확인';
   const color=c=>colors[c]||c||colors.white;
@@ -210,13 +210,14 @@
   $('category-select').addEventListener('change',e=>{stopPlay();category=e.target.value;refresh();});
   $('include-empty').addEventListener('change',e=>{stopPlay();includeEmpty=e.target.checked;refresh();});$('reset-filters').addEventListener('click',resetFilters);
   $('code-input').addEventListener('change',e=>jumpTo(e.target.value));$('code-input').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();jumpTo(e.target.value);}});$('code-range').addEventListener('input',e=>jumpTo(e.target.value));
-  $('focus-btn').addEventListener('click',()=>{zoomTouched=true;zoom=!zoom;updateView();});
+  $('focus-btn').addEventListener('click',()=>{zoom=!zoom;updateView();});
   $('fullscreen-btn').addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else if($('stage-card').requestFullscreen)await $('stage-card').requestFullscreen();else{zoom=true;updateView();toast('표시 영역을 확대했습니다.');}}catch{toast('이 브라우저에서는 전체화면을 사용할 수 없습니다.');}});
   $('speed-range').addEventListener('input',e=>{$('speed-text').textContent=e.target.value;$('speed-control-value').textContent=e.target.value;if(current()?.bank==='lanes')$('test-value').textContent=e.target.value;});
   $('motion-btn').addEventListener('click',()=>{motion=!motion;$('cluster-wrap').classList.toggle('motion',motion);$('motion-btn').setAttribute('aria-pressed',String(motion));});
   $('copy-btn').addEventListener('click',async()=>{const m=current();if(!m)return;const text=shortBank(m)+' / '+(currentNumber??m.code)+' : '+m.text;try{if(navigator.clipboard&&isSecureContext)await navigator.clipboard.writeText(text);else{const f=document.createElement('textarea');f.value=text;f.style.cssText='position:fixed;opacity:0';document.body.appendChild(f);f.select();const ok=document.execCommand('copy');f.remove();if(!ok)throw Error('copy');}toast('번호와 내용을 복사했습니다.');}catch{toast('복사가 제한되어 있습니다. 문구를 선택해 복사해 주세요.');}});
-  document.addEventListener('keydown',e=>{if(e.target.matches('input,select,textarea,button,summary')||e.ctrlKey||e.metaKey||e.altKey)return;if(e.key==='ArrowRight'){e.preventDefault();stopPlay();step(1);}else if(e.key==='ArrowLeft'){e.preventDefault();stopPlay();step(-1);}else if(e.code==='Space'){e.preventDefault();togglePlay();}});
-  document.addEventListener('visibilitychange',()=>{if(document.hidden)stopPlay();});window.addEventListener('pagehide',stopPlay);window.addEventListener('resize',()=>{if(!zoomTouched)zoom=matchMedia('(max-width:780px)').matches;updateView();});
+  document.addEventListener('keydown',e=>{if($('cluster-app').dataset.mode!=='menu'||e.target.matches('input,select,textarea,button,summary')||e.ctrlKey||e.metaKey||e.altKey)return;if(e.key==='ArrowRight'){e.preventDefault();stopPlay();step(1);}else if(e.key==='ArrowLeft'){e.preventDefault();stopPlay();step(-1);}else if(e.code==='Space'){e.preventDefault();togglePlay();}});
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)stopPlay();});window.addEventListener('pagehide',stopPlay);window.addEventListener('resize',updateView);
+  document.addEventListener('cluster-mode-changed',stopPlay);
   const categories=[...new Set(data.map(m=>m.category))];categories.sort((a,b)=>a.localeCompare(b,'ko'));categories.forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;$('category-select').appendChild(o);});
   document.querySelectorAll('.bank-count').forEach(n=>{n.textContent=n.dataset.bank==='all'?data.length:data.filter(m=>m.bank===n.dataset.bank).length;});
   $('total-count').textContent=data.length;$('message-count').textContent=data.filter(m=>m.kind==='message').length;$('graphic-count').textContent=data.filter(m=>m.kind==='graphic'||m.kind==='unverified'||m.kind==='camera').length;$('empty-count').textContent=data.filter(isEmpty).length;
