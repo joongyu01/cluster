@@ -22,7 +22,7 @@ for(const match of html.matchAll(/<([\w-]+)\b[^>]*\bid="([^"]+)"[^>]*>/g)){
 }
 const $=id=>{assert.ok(nodes.has(id),'missing element '+id);return nodes.get(id);};
 $('can-schema').textContent=fs.readFileSync('src/can-schema.json','utf8');$('message-data').textContent=fs.readFileSync('src/menus.json','utf8');
-const modes=['menu','dbc','log'].map(mode=>{const n=new Element('button');n.dataset.mode=mode;return n;});
+const modes=['menu','dbc','log','pilot'].map(mode=>{const n=new Element('button');n.dataset.mode=mode;return n;});
 const quick=[...html.matchAll(/data-signal="([^"]+)"/g)].map(m=>{const n=new Element('button');n.dataset.signal=m[1];return n;});
 const selectedPanel=new Element(),events=[],listeners={},timers=new Map();let serial=0;
 const document={getElementById:$,createElement:t=>new Element(t),createTextNode:t=>({textContent:String(t)}),querySelector:s=>{assert.equal(s,'.message-panel');return selectedPanel;},querySelectorAll:s=>s==='.mode-nav button'?modes:s==='.quick-signals button'?quick:[],addEventListener:(n,f)=>(listeners[n]??=[]).push(f),dispatchEvent:e=>{events.push(e);for(const f of listeners[e.type]||[])f(e);}};
@@ -44,4 +44,6 @@ modes[1].fire('click');$('can-value').value='6';$('can-apply').fire('click');ass
 $('can-play').fire('click');assert.equal(timers.size,1);modes[0].fire('click');assert.equal(timers.size,0);
 modes[2].fire('click');$('can-play').fire('click');for(const f of [...timers.values()])f();for(const f of [...timers.values()])f();assert.equal($('can-frame-count').textContent,'4 / 4');assert.equal(timers.size,0);
 $('can-clear').fire('click');assert.equal($('can-frame-count').textContent,'0 / 0');assert.equal($('can-play').disabled,true);assert.equal(preview(),null);
+modes[3].fire('click');assert.equal($('pilot-panel').hidden,false);assert.equal($('can-panel').hidden,true);assert.equal(selectedPanel.hidden,true);
+modes[0].fire('click');assert.equal($('pilot-panel').hidden,true);
 console.log('PASS: workspace modes, mapped signals, presets, value validation, 240/241, changes, log playback and timer cleanup');

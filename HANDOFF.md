@@ -1,5 +1,14 @@
 # Codex 작업 인계
 
+## 2026-10-31 Pilot Demo 연동 / 저장 오류 수정
+
+- Pilot Demo 모드는 `https://demopilot.joongyu.co.kr/dev/`를 선택 시 iframe으로 열고 `ClusterLaneTest` / `ClusterLaneTestValue`를 양방향 반영합니다. 메뉴·DBC·로그 모드는 계속 독립 실행됩니다.
+- Pilot Demo 저장소(`../carrot-web-live-demo`, 원격 `joongyu01/Pilot_Demo`)에서 매 배포의 시험 칸/DBC 서명을 추출합니다. 개발 브랜치는 `ajouatom/openpilot`의 `joongyu01/carrot-wip-dev`. 15분 주기 감지·검사 후 배포이며 GitHub 예약 지연이 가능합니다. 열린 계기판에서는 다시 연결으로 갱신합니다.
+- `src/pilot-model.js`는 배포된 정의와 내장 DBC의 비트·길이·배율 일치를 확인하고 합성 프레임을 만듭니다. 미지원 칸/서명 불일치는 화면을 원래 상태로 돌리고 이유를 표시합니다. 자동 칸 순회(-1)는 미지원, 값 순회(-1~-4)는 지원합니다.
+- `src/pilot-ui.js` / Demo `cluster-bridge.js`는 정확한 HTTPS origin과 iframe/parent source를 확인합니다. 4개 시험 설정만 읽고 2개만 씁니다. 실차 송신·기기 연결이 아닙니다.
+- 최근 Demo 실패 실행 41058853293, 40542697579, 40422664923은 모두 IndexedDB 저장 직후 새로고침 검사 실패였습니다. Worker가 모든 대기 쓰기를 저장한 뒤 응답하도록 수정하고 회귀 검사와 브라우저 반복 저장 검사를 추가했습니다.
+- `node check-pilot.cjs`, 기존 workspace/CAN/layout 검사 통과. 메뉴 245개 SHA256 `808DC44D2F367E05691F88328DE5129C0CAA5963722A7C4C768B51162F993BE5` 보존. 배포·실화면 결과는 후속 기록 참고.
+
 작성일: 2026-10-29 (한국 시간)
 
 ## 사용자 요청의 흐름

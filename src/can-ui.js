@@ -9,7 +9,7 @@
   const payload=()=>payloads[message().address]||new Uint8Array(message().length);
   function option(select,value,label){const o=document.createElement('option');o.value=value;o.textContent=label;select.appendChild(o);}
   function emit(){
-    const active=mode!=='menu'&&$('can-enabled').checked&&Object.keys(state).length>0;
+    const active=['dbc','log'].includes(mode)&&$('can-enabled').checked&&Object.keys(state).length>0;
     document.dispatchEvent(new CustomEvent('cluster-can-preview',{detail:active?can.preview(state,menus,schema):null}));
     $('workspace-status').textContent=active?'DBC 참고 시각화 적용 중':'영상 관찰 화면';$('workspace-status').classList.toggle('active',active);
   }
@@ -19,11 +19,11 @@
     stopPlayback();mode=next;$('cluster-app').dataset.mode=mode;
     document.querySelectorAll('.mode-nav button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));
     $('mode-menu-panel').hidden=mode!=='menu';document.querySelector('.message-panel').hidden=mode!=='menu';
-    $('can-panel').hidden=mode==='menu';$('change-panel').hidden=mode==='menu';$('log-controls').hidden=mode!=='log';$('signal-controls').hidden=mode!=='dbc';
+    $('can-panel').hidden=!['dbc','log'].includes(mode);$('change-panel').hidden=!['dbc','log'].includes(mode);$('log-controls').hidden=mode!=='log';$('signal-controls').hidden=mode!=='dbc';$('pilot-panel').hidden=mode!=='pilot';
     $('can-heading').textContent=mode==='log'?'CAN 로그 재생':'DBC 신호 조작';
     $('can-intro').textContent=mode==='log'?'프레임을 넘기며 달라진 표시를 확인하세요.':'바꿀 표시를 고르고 값을 적용해 보세요.';
     $('can-enabled').checked=mode!=='menu'&&Object.keys(state).length>0;
-    document.dispatchEvent(new Event('cluster-mode-changed'));emit();
+    document.dispatchEvent(new Event('cluster-mode-changed'));if(mode!=='pilot')emit();
   }
   function applyValue(raw){
     stopPlayback();

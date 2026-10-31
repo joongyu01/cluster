@@ -15,6 +15,8 @@ def build():
         "__PROJECT_CAN_SCHEMA__": (SRC / "can-schema.json").read_text(encoding="utf-8").replace("</", "<" + chr(92) + "/"),
         "__PROJECT_CAN_CORE__": (SRC / "can.js").read_text(encoding="utf-8-sig"),
         "__PROJECT_CAN_UI__": (SRC / "can-ui.js").read_text(encoding="utf-8"),
+        "__PROJECT_PILOT_MODEL__": (SRC / "pilot-model.js").read_text(encoding="utf-8"),
+        "__PROJECT_PILOT_UI__": (SRC / "pilot-ui.js").read_text(encoding="utf-8"),
     }
     for marker, content in parts.items():
         if template.count(marker) != 1:
