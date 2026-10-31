@@ -3112,11 +3112,12 @@ select{width:100%;min-width:0;max-width:100%;background-color:#18212e;border:1px
     if(m.length!==map.length||['start','size','little','signed','factor','offset'].some(key=>s[key]!==map[key]))throw Error('데모와 계기판의 DBC 정의가 달라 반영을 중지했습니다.');
     const period=value<0?({'-1':1000,'-2':500,'-3':250,'-4':100})[value]:0;
     if(value<0&&!period)throw Error('지원하지 않는 자동 값 순회입니다.');
-    const min=s.signed?-(2**(s.size-1)):0,max=s.signed?2**(s.size-1)-1:2**s.size-1;
-    const raw=period?min+tick%(max-min+1):value;
+    // Match the deployed CAN packer's truncation to the signal bit width.
+    const encoded=(period?tick:value)%(2**s.size);
+    const raw=s.signed&&encoded>=2**(s.size-1)?encoded-2**s.size:encoded;
     const bytes=can.change(m,new Uint8Array(m.length),s.name,raw),preview=can.preview({[m.address]:can.decode(m,bytes)},menus,schema);
     return {preview,period,raw,name:s.name,effect:effect(s.name,raw,preview,s),
-      label:'칸 '+field+' · '+s.name+' = '+raw+(period?' · '+period/1000+'초 순회':''),mapped:!!can.displayed[m.address]?.includes(s.name)};
+      label:'칸 '+field+' · '+s.name+' = '+raw+(period?' · '+period/1000+'초 순회':raw!==value?' · 입력 '+value+'의 '+s.size+'비트 값':''),mapped:!!can.displayed[m.address]?.includes(s.name)};
   }
   const api={frame};if(typeof module==='object')module.exports=api;else root.ClusterPilot=api;
 })(typeof globalThis==='object'?globalThis:this);

@@ -18,5 +18,7 @@ const sweep=structuredClone(lane);sweep.values.ClusterLaneTestValue=-4;
 assert.equal(frame(sweep,schema,menus,9).raw,9);assert.equal(frame(sweep,schema,menus,16).raw,0);assert.equal(frame(sweep,schema,menus).period,100);
 sweep.values.ClusterLaneTest=-1;assert.throws(()=>frame(sweep,schema,menus),/자동 칸 순회/);
 assert.throws(()=>frame({},schema,menus),/설정이 없습니다/);
-assert.throws(()=>frame(snapshot(45,'LANELINE_LEFT',16),schema,menus));
+assert.equal(frame(snapshot(45,'LANELINE_LEFT',16),schema,menus).raw,0);
+assert.equal(frame(snapshot(45,'LANELINE_LEFT',24),schema,menus).effect,'왼쪽 차선: 흰색 점선');
+assert.match(frame(snapshot(45,'LANELINE_LEFT',24),schema,menus).label,/입력 24의 4비트 값/);
 console.log('PASS: Pilot field mapping, 240/241, dashed lane, off, DBC mismatch, unsupported slot and value sweeps');
