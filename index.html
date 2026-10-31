@@ -3146,7 +3146,7 @@ select{width:100%;min-width:0;max-width:100%;background-color:#18212e;border:1px
     stop();latest=null;previous=null;tick=0;preview(null);$('pilot-apply').disabled=true;$('pilot-difference').textContent='데모 설정이 연결되면 계기판 변화가 여기에 표시됩니다.';
     status('Pilot Demo를 불러오는 중입니다. 첫 실행은 잠시 걸릴 수 있습니다.');
     clearTimeout(waiting);waiting=setTimeout(()=>status('연결 응답이 없습니다. 다시 연결하거나 데모를 새 창에서 확인해 주세요.',true),60000);
-    if(reload||!iframe.getAttribute('src'))iframe.src=ORIGIN+'/dev/?cluster=1';else send('subscribe');
+    if(reload||!iframe.getAttribute('src'))iframe.src=ORIGIN+'/dev/?cluster=1&v='+Date.now();else send('subscribe');
   }
   iframe.addEventListener('load',()=>{if(active())send('subscribe');});
   window.addEventListener('message',event=>{
