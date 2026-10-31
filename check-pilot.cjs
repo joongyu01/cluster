@@ -8,6 +8,8 @@ function snapshot(field,name,value){
 }
 const lane=snapshot(45,'LANELINE_LEFT',8);
 assert.equal(frame(lane,schema,menus).preview.graphic.left.style,'dashed');
+assert.equal(frame(lane,schema,menus).effect,'왼쪽 차선: 흰색 점선');
+assert.match(frame(snapshot(21,'ALERTS_4',240),schema,menus).effect,/중앙 알림:.*연료/);
 for(const code of [240,241])assert.equal(frame(snapshot(21,'ALERTS_4',code),schema,menus).preview.center.codes[0],code);
 const off=structuredClone(lane);off.values.ClusterLaneTest=0;assert.equal(frame(off,schema,menus).preview,null);
 const mismatch=structuredClone(lane);mismatch.mapping.start++;assert.throws(()=>frame(mismatch,schema,menus),/DBC 정의/);

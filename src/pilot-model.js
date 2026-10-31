@@ -1,6 +1,15 @@
 (function(root){
   'use strict';
   const can=typeof module==='object'?require('./can.js'):root.ClusterCAN;
+  function effect(name,raw,p,definition){
+    const colors={gray:'회색',white:'흰색',orange:'주황색',green:'초록색',blue:'파란색',red:'빨간색'};
+    if(['LANELINE_LEFT','LANELINE_RIGHT'].includes(name)){
+      const line=p.graphic[name==='LANELINE_LEFT'?'left':'right'];
+      return (name==='LANELINE_LEFT'?'왼쪽':'오른쪽')+' 차선: '+(line.style==='none'?'미표시':colors[line.color]+' '+(line.style==='dashed'?'점선':'실선'));
+    }
+    if(['ALERTS_4','ALERTS_5'].includes(name))return (name==='ALERTS_4'?'중앙':'오른쪽')+' 알림: '+(p[name==='ALERTS_4'?'center':'right']?.text||(raw===0?'숨김':'관찰 문구 미연결'));
+    return name+': '+(definition.values[String(raw)]||raw);
+  }
   function frame(snapshot,schema,menus,tick=0){
     if(!snapshot.settings?.ClusterLaneTest||!snapshot.settings?.ClusterLaneTestValue)throw Error('이 데모 버전에는 계기판 표시 테스트 설정이 없습니다.');
     const field=snapshot.values?.ClusterLaneTest,value=snapshot.values?.ClusterLaneTestValue;
@@ -14,8 +23,8 @@
     if(value<0&&!period)throw Error('지원하지 않는 자동 값 순회입니다.');
     const min=s.signed?-(2**(s.size-1)):0,max=s.signed?2**(s.size-1)-1:2**s.size-1;
     const raw=period?min+tick%(max-min+1):value;
-    const bytes=can.change(m,new Uint8Array(m.length),s.name,raw);
-    return {preview:can.preview({[m.address]:can.decode(m,bytes)},menus,schema),period,raw,
+    const bytes=can.change(m,new Uint8Array(m.length),s.name,raw),preview=can.preview({[m.address]:can.decode(m,bytes)},menus,schema);
+    return {preview,period,raw,name:s.name,effect:effect(s.name,raw,preview,s),
       label:'칸 '+field+' · '+s.name+' = '+raw+(period?' · '+period/1000+'초 순회':''),mapped:!!can.displayed[m.address]?.includes(s.name)};
   }
   const api={frame};if(typeof module==='object')module.exports=api;else root.ClusterPilot=api;

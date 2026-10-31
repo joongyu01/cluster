@@ -27,6 +27,7 @@ select{width:100%;min-width:0;max-width:100%;background-color:#18212e;border:1px
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
 
 /* Pilot Demo is loaded only when its workspace is selected. */
+.pilot-feedback{display:none;margin-top:14px;padding:15px 17px;border:1px solid #345143;border-radius:10px;background:#13231d}.app[data-mode=pilot] .pilot-feedback{display:block}.pilot-feedback>span{font-size:10px;color:var(--muted)}.pilot-feedback p{font-size:14px;line-height:1.8;margin:6px 0 0;color:#d4f4e4;overflow-wrap:anywhere}
 .app[data-mode=pilot] .workspace{grid-template-columns:minmax(0,1fr) minmax(430px,.85fr)}
 .pilot-controls{display:grid;grid-template-columns:1fr 1fr auto;align-items:end;gap:9px;margin:12px 16px}.pilot-controls label{font-size:11px;color:var(--muted)}.pilot-controls input{display:block;width:100%;margin-top:5px;min-height:39px}.pilot-controls button{min-height:39px}.pilot-hint{font-size:10px;color:var(--muted);margin:0 16px;line-height:1.8}.pilot-effect{margin:12px 16px;color:var(--accent);font-size:12px;overflow-wrap:anywhere}.pilot-links{display:flex;justify-content:space-between;gap:10px;margin:12px 16px;font-size:10px;color:var(--muted);overflow-wrap:anywhere}#pilot-frame{display:block;width:100%;height:680px;border:0;border-top:1px solid var(--line);background:#111}#pilot-panel>.mapping-note{margin:12px 16px}
 @media(max-width:900px){.app[data-mode=pilot] .workspace{display:block}.mode-nav .workspace-status{display:none}}

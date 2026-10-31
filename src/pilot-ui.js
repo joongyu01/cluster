@@ -2,7 +2,7 @@
   'use strict';
   const $=id=>document.getElementById(id),ORIGIN='https://demopilot.joongyu.co.kr',CHANNEL='cluster-pilot-v1';
   const iframe=$('pilot-frame'),schema=JSON.parse($('can-schema').textContent),menus=JSON.parse($('message-data').textContent);
-  let latest=null,sweep=null,waiting=null,tick=0;
+  let latest=null,sweep=null,waiting=null,tick=0,previous=null;
   const active=()=>$('cluster-app').dataset.mode==='pilot';
   const send=(type,data={})=>iframe.contentWindow?.postMessage({channel:CHANNEL,type,...data},ORIGIN);
   const preview=detail=>document.dispatchEvent(new CustomEvent('cluster-can-preview',{detail}));
@@ -12,14 +12,16 @@
     if(!active()||!latest)return;
     try{
       const result=ClusterPilot.frame(latest,schema,menus,tick++);preview(result.preview);
+      $('pilot-difference').textContent=result.preview?(previous?.name===result.name&&previous.raw!==result.raw?previous.effect+' → '+result.effect:result.effect)+(result.mapped===false?' · 화면 효과 미연결':''):result.label;
+      previous=result;
       $('pilot-effect').textContent=result.label+(result.mapped===false?' · 값만 확인':'');
       $('workspace-status').textContent=result.preview?'Pilot Demo 연결됨':'Pilot Demo · 테스트 꺼짐';
       $('workspace-status').classList.toggle('active',!!result.preview);
       if(result.period&&!sweep&&!document.hidden)sweep=setInterval(render,result.period);
-    }catch(error){stop();preview(null);$('pilot-effect').textContent=error.message;$('workspace-status').textContent='Pilot Demo · 화면 미반영';$('workspace-status').classList.remove('active');}
+    }catch(error){stop();previous=null;preview(null);$('pilot-difference').textContent=error.message;$('pilot-effect').textContent=error.message;$('workspace-status').textContent='Pilot Demo · 화면 미반영';$('workspace-status').classList.remove('active');}
   }
   function connect(reload=false){
-    stop();latest=null;tick=0;preview(null);$('pilot-apply').disabled=true;
+    stop();latest=null;previous=null;tick=0;preview(null);$('pilot-apply').disabled=true;$('pilot-difference').textContent='데모 설정이 연결되면 계기판 변화가 여기에 표시됩니다.';
     status('Pilot Demo를 불러오는 중입니다. 첫 실행은 잠시 걸릴 수 있습니다.');
     clearTimeout(waiting);waiting=setTimeout(()=>status('연결 응답이 없습니다. 다시 연결하거나 데모를 새 창에서 확인해 주세요.',true),60000);
     if(reload||!iframe.getAttribute('src'))iframe.src=ORIGIN+'/dev/?cluster=1';else send('subscribe');
